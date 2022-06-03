@@ -1,0 +1,1 @@
+I am the target cell example. I am composed by a cross, a circle over the cross, and a small cross over the circle. I use BlLinearLayout vertical to draw my elements.

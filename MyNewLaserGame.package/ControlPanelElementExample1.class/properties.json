@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BrWidgetContainer",
+	"category" : "MyNewLaserGame-Examples - ControlPanelElement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"controlPanelElement"
+	],
+	"name" : "ControlPanelElementExample1",
+	"type" : "normal"
+}

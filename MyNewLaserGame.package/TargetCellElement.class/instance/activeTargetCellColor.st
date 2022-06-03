@@ -1,0 +1,3 @@
+drawing
+activeTargetCellColor
+	^Color green

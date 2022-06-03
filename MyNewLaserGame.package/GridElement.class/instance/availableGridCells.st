@@ -1,0 +1,3 @@
+accessing
+availableGridCells
+	^availableGridCells 

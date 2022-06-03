@@ -1,0 +1,3 @@
+accesing
+gameButtonLabelText
+	^ 'New Game'

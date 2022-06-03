@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MyNewLaserGame-Examples - Board Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"boardGameSpace",
+		"boardGameContainer"
+	],
+	"name" : "BoardGameExample",
+	"type" : "normal"
+}

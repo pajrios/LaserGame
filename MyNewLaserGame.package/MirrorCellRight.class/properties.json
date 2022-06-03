@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MirrorCell",
+	"category" : "MyNewLaserGame-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MirrorCellRight",
+	"type" : "normal"
+}

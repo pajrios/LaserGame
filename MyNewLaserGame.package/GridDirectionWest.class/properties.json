@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GridDirection",
+	"category" : "MyNewLaserGame-Directions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GridDirectionWest",
+	"type" : "normal"
+}

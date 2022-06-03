@@ -1,0 +1,1 @@
+Example of a possible solution for a game grid using "BlGridLayout horizontal"

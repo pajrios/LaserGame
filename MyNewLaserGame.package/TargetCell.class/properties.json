@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "GlamorousAuthor 1/28/2021 13:42",
+	"super" : "Cell",
+	"category" : "MyNewLaserGame-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TargetCell",
+	"type" : "normal"
+}

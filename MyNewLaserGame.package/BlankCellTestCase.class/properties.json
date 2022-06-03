@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "MyNewLaserGame-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"blankCell",
+		"directionSymbol"
+	],
+	"name" : "BlankCellTestCase",
+	"type" : "normal"
+}

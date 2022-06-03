@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CellElement",
+	"category" : "MyNewLaserGame-Graphics-Cells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"targetCircleRadius",
+		"targetCircleCenterPoint"
+	],
+	"name" : "TargetCellElement",
+	"type" : "normal"
+}

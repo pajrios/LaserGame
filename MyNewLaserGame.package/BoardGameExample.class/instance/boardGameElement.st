@@ -1,0 +1,3 @@
+composition
+boardGameElement
+	^GridElNewExample new

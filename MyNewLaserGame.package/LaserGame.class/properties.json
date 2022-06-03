@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MyNewLaserGame-LaserGame",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"myGame",
+		"myGridBoard"
+	],
+	"name" : "LaserGame",
+	"type" : "normal"
+}

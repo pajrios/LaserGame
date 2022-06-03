@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CellSegment",
+	"category" : "MyNewLaserGame-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CellSegmentSouth",
+	"type" : "normal"
+}

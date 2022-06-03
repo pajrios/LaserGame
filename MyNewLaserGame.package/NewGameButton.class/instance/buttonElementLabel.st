@@ -1,0 +1,3 @@
+parameters
+buttonElementLabel
+	^ 'New Game'

@@ -1,0 +1,3 @@
+composition
+controlPanelElement
+	^ControlPanelElementExample1 new controlPanelElement 

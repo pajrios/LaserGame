@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MyNewLaserGame-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"RandomNumberGenerator"
+	],
+	"instvars" : [ ],
+	"name" : "GridFactory",
+	"type" : "normal"
+}

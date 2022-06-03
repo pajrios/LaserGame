@@ -1,0 +1,1 @@
+It is unique because it does not have exit. Once the laser beam enters a target cell it does not leave and propagate anymore. A design choice we made here is to set the exit values to be nil. Once it is reached the game is finished.

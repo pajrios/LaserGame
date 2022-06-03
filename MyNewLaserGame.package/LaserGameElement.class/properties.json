@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MyNewLaserGame-Graphics-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"container",
+		"gridBoardElement",
+		"controlPanelElement",
+		"buttonElements",
+		"laserElement",
+		"moves"
+	],
+	"name" : "LaserGameElement",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+I am an empty cell. Laser should passthrough. Entering on north will out on south and viceversa. Entering on east will out on west and viceversa.

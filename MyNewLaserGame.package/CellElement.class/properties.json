@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "MyNewLaserGame-Graphics-Cells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cell",
+		"cellBorder"
+	],
+	"name" : "CellElement",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CellTargetCrossElementExample2",
+	"category" : "MyNewLaserGame-Examples - CellElement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CellTargetVLineElementExample2",
+	"type" : "normal"
+}

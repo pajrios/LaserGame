@@ -1,0 +1,3 @@
+accesing
+gameButtonLabelText
+	^ 'Quit Game'

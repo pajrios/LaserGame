@@ -1,0 +1,3 @@
+button characteristics
+buttonElementColor
+	^Color lightGreen

@@ -1,0 +1,1 @@
+I will represent the board where the cells are presented in a matrix representation of the Grid.

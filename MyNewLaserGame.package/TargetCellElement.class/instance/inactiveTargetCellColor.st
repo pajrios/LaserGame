@@ -1,0 +1,3 @@
+drawing
+inactiveTargetCellColor
+	^Color yellow

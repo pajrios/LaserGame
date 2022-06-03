@@ -1,0 +1,3 @@
+accessing
+boardGridCells: aGridCellElementDictionary
+	boardGridCells := aGridCellElementDictionary

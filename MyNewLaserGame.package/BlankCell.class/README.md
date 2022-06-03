@@ -1,0 +1,1 @@
+An empty cell. A beam entering the west will exit east and the same in reverse. A beam entering the south will exit north and same in reverse.

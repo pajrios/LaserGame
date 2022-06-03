@@ -1,0 +1,4 @@
+composition
+gridElement
+	^GridElNewExample new
+	

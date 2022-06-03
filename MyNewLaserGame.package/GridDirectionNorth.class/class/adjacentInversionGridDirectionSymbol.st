@@ -1,0 +1,3 @@
+direction
+adjacentInversionGridDirectionSymbol
+	^CellSegmentSouth cellSegmentSymbol

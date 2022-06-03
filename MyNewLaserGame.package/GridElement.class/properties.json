@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "GlamorousAuthor 2/3/2021 11:32",
+	"super" : "BlElement",
+	"category" : "MyNewLaserGame-Graphics-Grid",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"boardGrid",
+		"boardGridCells",
+		"availableGridCells"
+	],
+	"name" : "GridElement",
+	"type" : "normal"
+}

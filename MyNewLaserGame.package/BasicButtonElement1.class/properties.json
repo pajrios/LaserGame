@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "GlamorousAuthor 3/10/2021 18:57",
+	"super" : "BrButton",
+	"category" : "MyNewLaserGame-Examples - Buttons",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"laserIsActive",
+		"buttonColor",
+		"buttonLabel",
+		"buttonIcon"
+	],
+	"name" : "BasicButtonElement1",
+	"type" : "normal"
+}

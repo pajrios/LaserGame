@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MyNewLaserGame-Examples - GridElement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"boardGridModel",
+		"boardGridElement",
+		"boardGridCellElements",
+		"availableGridCellElements",
+		"boardGridSpace"
+	],
+	"name" : "GridElementNewExample",
+	"type" : "normal"
+}

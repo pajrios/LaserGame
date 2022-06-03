@@ -1,0 +1,1 @@
+I am a basic cell with a mirror left oriented. Laser entering on north will go out on west and viceversa. Laser entering on east will go out on south and viceversa.

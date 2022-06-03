@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MyNewLaserGame-Laser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gridCell",
+		"gridCellEntrySide"
+	],
+	"name" : "LaserBeamPathElement",
+	"type" : "normal"
+}

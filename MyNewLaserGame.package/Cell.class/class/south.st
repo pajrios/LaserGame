@@ -1,0 +1,3 @@
+direction
+south
+	^#south 

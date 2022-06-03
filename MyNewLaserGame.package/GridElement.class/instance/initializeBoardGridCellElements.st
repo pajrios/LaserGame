@@ -1,0 +1,4 @@
+initialization
+initializeBoardGridCellElements
+	self boardGridCells: OrderedCollection new.
+	self newCellElement

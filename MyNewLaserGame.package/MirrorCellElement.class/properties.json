@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CellElement",
+	"category" : "MyNewLaserGame-Graphics-Cells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mirrorOrigin",
+		"mirrorEnd"
+	],
+	"name" : "MirrorCellElement",
+	"type" : "normal"
+}
