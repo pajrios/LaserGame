@@ -2,7 +2,7 @@ instance creation
 basicButtonElement
 
 	^ self
-		  look: (BrGlamorousButtonExteriorAptitude new
+		  aptitude: (BrGlamorousButtonExteriorAptitude new
 				   backgroundPaint: buttonColor;
 				   borderPaint: BrGlamorousColors darkBorderColor)
 			  + BrGlamorousButtonRectangularAptitude new

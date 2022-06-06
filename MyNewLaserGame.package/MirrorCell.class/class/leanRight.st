@@ -1,3 +1,3 @@
 instance creation
 leanRight
-	^super new leanRight
+	^self new leanRight

@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 buttonElementColor
 	^Color blue lighter lighter

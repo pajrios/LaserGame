@@ -1,0 +1,4 @@
+testing
+isLeft 
+
+	^self leansLeft 

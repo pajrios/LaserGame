@@ -5,13 +5,13 @@ gameButtonElement: aButtonIcon color: aButtonColor label: aButtonLabel
 	buttonIcon ifNil: [ BrGlamorousIcons empty asElement ].
 	^ self
 		look:
-			(BrGlamorousButtonExteriorLook new
+			(BrGlamorousButtonExteriorAptitude new
 				backgroundPaint: aButtonColor;
 				borderPaint: BrGlamorousColors darkBorderColor)
-				+ BrGlamorousButtonRectangularLook new
-				+ BrGlamorousButtonIconLook new + BrGlamorousButtonLabelLook new
+				+ BrGlamorousButtonRectangularAptitude new
+				+ BrGlamorousButtonLabelAndIconAptitude new
 				+
-					(BrShadowLook new
+					(BrShadowAptitude new
 						color: Color darkGray;
 						offset: 4);
 		"look: BrGlamorousButtonWithIconAndLabelLook;"

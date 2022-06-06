@@ -1,4 +1,4 @@
 initialization
 initialize
-	self initializeForGrid: GridFactory demoGrid
+	self initializeForGrid: GridFactory demoGrid1
 	

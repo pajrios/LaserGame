@@ -2,8 +2,8 @@ instance creation
 gameButtonElement
 	^self
 		look:
-			BrMaterialButtonLayoutLook + BrShadowLook + BrMaterialRoundedLook
-				+ (BrTextLabelLook new fontSize: 11);
+			BrGlamorousButtonLayoutAptitude  + BrShadowAptitude + BrGlamorousButtonCircularAptitude 
+				+ (BrTextLabelAptitude new fontSize: 11);
 		label: '';
 		layout: BlLinearLayout horizontal;
 		constraintsDo: [ :c | 
