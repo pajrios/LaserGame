@@ -1,7 +1,7 @@
 tests
 testMirrorCellRightExitSides
 	
-	mirrorCellRight assert: (mirrorCellRight laserExitSideFor: #north) equals: #west.
-	mirrorCellRight assert: (mirrorCellRight laserExitSideFor: #east) equals: #south.
-	mirrorCellRight assert: (mirrorCellRight laserExitSideFor: #south) equals: #east.
-	mirrorCellRight assert: (mirrorCellRight laserExitSideFor: #west) equals: #north.
+	self assert: (mirrorCellRight laserExitSideFor: #north) equals: #west.
+	self assert: (mirrorCellRight laserExitSideFor: #east) equals: #south.
+	self assert: (mirrorCellRight laserExitSideFor: #south) equals: #east.
+	self assert: (mirrorCellRight laserExitSideFor: #west) equals: #north.

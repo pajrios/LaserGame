@@ -1,10 +1,10 @@
 tests
 testMirrorCellExitSidesMirrorLeft
 	mirrorCell leanLeft.
-	mirrorCell assert: (mirrorCell laserExitSideFor: #north) equals: #east.
-	mirrorCell assert: (mirrorCell laserExitSideFor: #east) equals: #north.
-	mirrorCell assert: (mirrorCell laserExitSideFor: #south) equals: #west.
-	mirrorCell assert: (mirrorCell laserExitSideFor: #west) equals: #south.
+	self assert: (mirrorCell laserExitSideFor: #north) equals: #east.
+	self assert: (mirrorCell laserExitSideFor: #east) equals: #north.
+	self assert: (mirrorCell laserExitSideFor: #south) equals: #west.
+	self assert: (mirrorCell laserExitSideFor: #west) equals: #south.
 
 
 	"Old method version

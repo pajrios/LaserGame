@@ -1,10 +1,10 @@
 tests
 testMirrorCellExitSidesMirrorRight
 	mirrorCell leanRight.
-	mirrorCell assert: (mirrorCell laserExitSideFor: #north) equals: #west.
-	mirrorCell assert: (mirrorCell laserExitSideFor: #east) equals: #south.
-	mirrorCell assert: (mirrorCell laserExitSideFor: #south) equals: #east.
-	mirrorCell assert: (mirrorCell laserExitSideFor: #west) equals: #north.
+	self assert: (mirrorCell laserExitSideFor: #north) equals: #west.
+	self assert: (mirrorCell laserExitSideFor: #east) equals: #south.
+	self assert: (mirrorCell laserExitSideFor: #south) equals: #east.
+	self assert: (mirrorCell laserExitSideFor: #west) equals: #north.
 	"| cell exit |
 	cell := MirrorCell new.
 	cell leanRight.
