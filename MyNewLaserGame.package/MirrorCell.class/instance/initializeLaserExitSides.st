@@ -1,3 +1,4 @@
 initialize
 initializeLaserExitSides
+	self subclassResponsibility 
 	
