@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pajrios 6/6/2022 17:03",
 	"super" : "GridDirection",
-	"category" : "MyNewLaserGame-Directions",
+	"category" : "MyNewLaserGame-Model-Directions",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

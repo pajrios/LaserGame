@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "GlamorousAuthor 1/28/2021 16:10",
 	"super" : "Object",
-	"category" : "MyNewLaserGame-Model",
+	"category" : "MyNewLaserGame-Model-Cells",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

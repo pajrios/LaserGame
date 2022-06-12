@@ -1,4 +1,6 @@
 initialize
-initialize 	
+initialize
+
 	super initialize.
-	self initializeLaserExitSides.
+	self initializeGridDirections.
+	self initializeLaserExitSides

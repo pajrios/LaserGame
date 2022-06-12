@@ -1,3 +1,4 @@
 private
 generateDemoGrid
-	^GridFactory demoGrid
+
+	^ GridFactory demoGrid1

@@ -1,5 +1,6 @@
 tests
 testFireLaser
+
 	| grid |
 	grid := self generateDemoGrid.
 	grid fireLaser.

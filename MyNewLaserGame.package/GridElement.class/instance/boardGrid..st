@@ -1,3 +1,4 @@
 accessing
-boardGrid: anObject
-	boardGrid := anObject
+boardGrid: aBoardGrid
+
+	boardGrid := aBoardGrid

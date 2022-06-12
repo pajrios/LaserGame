@@ -1,3 +1,4 @@
 accessing
-availableGridCells: anObject
-	availableGridCells := anObject
+availableGridCells: aCell
+
+	availableGridCells := aCell

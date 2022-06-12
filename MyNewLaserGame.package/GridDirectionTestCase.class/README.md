@@ -1,0 +1,1 @@
+This class contains tests for the grid direction vector code. The first test is copy of the tutorial original method. The second test is my interpretation of the same test using the class side methods of GridDirection different classes..
