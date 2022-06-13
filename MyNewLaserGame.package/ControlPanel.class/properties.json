@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "MyNewLaserGame-LaserGame",
+	"category" : "MyNewLaserGame-Model-ControlPanel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"myGame",
-		"myGridBoard",
-		"space"
-	],
-	"name" : "LaserGame",
+	"instvars" : [ ],
+	"name" : "ControlPanel",
 	"type" : "normal"
 }

@@ -1,5 +1,5 @@
 accessing
-controlPanelElement
+controlPanelElement1
 
 	<gtExample>
 	^ controlPanelElement := BrVerticalPane new
@@ -16,18 +16,11 @@ controlPanelElement
 			                         (BlRoundedRectangleGeometry cornerRadius:
 					                          5);
 		                         id: #ControlPanel;
-		                         constraintsDo: [ :c | 
-			                         c linear horizontal alignRight.
-			                         c vertical matchParent ];
-		                         padding: (BlInsets all: 20);
 		                         addChildren: { 
 				                         FireLaserButtonElement1 new.
 				                         NewGameButtonElement1 new.
 				                         QuitGameButtonElement1 new.
 				                         ResetGameButtonElement1 new.
 				                         UndoButtonElement1 new.
-				                         (BrLabel new
-					                          aptitude: (BrGlamorousLabelAptitude new
-							                           fontSize: 14;
-							                           bold);
-					                          text: 'Game Control') }
+				                         self controlPanelElementLabel };
+		                         yourself

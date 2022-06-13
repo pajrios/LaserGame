@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "BlElement",
 	"category" : "MyNewLaserGame-Examples - ControlPanelElement",
 	"classinstvars" : [ ],
 	"pools" : [ ],
