@@ -1,0 +1,4 @@
+accessing
+boardGridWidth 
+
+	^self width

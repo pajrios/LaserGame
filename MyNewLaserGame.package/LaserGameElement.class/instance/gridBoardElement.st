@@ -1,4 +1,5 @@
 accessing
 gridBoardElement
-	self createGridBoard.
+
+	"self createGridBoard."
 	^ gridBoardElement
