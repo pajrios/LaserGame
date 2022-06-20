@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pajrios 6/6/2022 17:06",
 	"super" : "Object",
-	"category" : "MyNewLaserGame-Laser",
+	"category" : "MyNewLaserGame-Model-LaserBeam",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,0 +1,1 @@
+I am at the head of cell hierarchy. I take care of the basic characteristics common to all cells. It means the background, the borders.

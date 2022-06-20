@@ -1,8 +1,8 @@
 drawing
 drawOnSpartaCanvas: aCanvas
 
-	"self drawCellBackgroundOn: aCanvas.
-	self drawCellBorderOn: aCanvas."
+	"Drawing the complete target cell"
+
 	super drawOnSpartaCanvas: aCanvas.
 	self drawOuterTargetCrossOn: aCanvas.
 	self drawTargetCircleOn: aCanvas.

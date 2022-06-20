@@ -1,14 +1,18 @@
 drawing
-cellBorder2
+cellBorderVertices
 
-	"Forced to draw the border: I don't like it. Why does not work with border: method definition?  "
+	"A collection of points (vertices) to draw the border of cells as a polygon.
+	I am using SpartaShapeFactory methods for drawing"
 
-	^ BlPolygonGeometry vertices: { 
-			  (0 @ 0).
-			  (self cellSize @ 0).
-			  (self cellSize @ self cellSize).
-			  (0 @ self cellSize) }
-	"	self
+	^ { 
+		  (0 @ 0).
+		  (self cellSize @ 0).
+		  (self cellSize @ self cellSize).
+		  (0 @ self cellSize) }
+	
+	" Old method: 
+		
+		self
 		drawLineElementOn: aCanvas
 		lineOrigin: 0 @ 0
 		lineEnd: self cellElementSize @ 0.

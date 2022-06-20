@@ -1,0 +1,1 @@
+I am the end of the laser beam path. The laser enters me giving an end to the game. Laser does not go out me.

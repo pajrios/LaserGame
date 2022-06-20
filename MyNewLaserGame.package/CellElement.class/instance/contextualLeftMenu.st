@@ -1,4 +1,4 @@
-as yet unclassified
+context menu
 contextualLeftMenu
 	"| contextualElement |
 	contextualElement := BlElement new background: Color red yourself.

@@ -1,8 +1,9 @@
 initialization
 initialize
+
 	super initialize.
 	"self size: self cellElementSize @ self cellElementSize."
-	self cell: BlankCell new.
+	"self cell: BlankCell new"
 	"self contextualLeftMenu"
 
 	"self cellElementDefinition"

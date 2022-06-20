@@ -1,2 +1,6 @@
 geometry
 mirrorCellOrigin
+
+
+	self subclassResponsibility 
+	
