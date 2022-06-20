@@ -1,4 +1,8 @@
 initialization
 initialize
+
 	super initialize.
-	self addButtonsToControlPanel 
+	self initializeButtons.
+	self createControlPanel.
+	self controlPanelComposition
+	"self addButtonsToControlPanel"
