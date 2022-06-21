@@ -1,0 +1,1 @@
+I am a panel that allocate all buttons needed to control the game. I will also show the moves done to reach the target cell.

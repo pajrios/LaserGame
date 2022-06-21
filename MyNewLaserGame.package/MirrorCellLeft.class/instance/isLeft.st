@@ -1,4 +1,4 @@
 testing
-isLeft 
+isLeft
 
-	^self leansLeft 
+	^ true "self leansLeft"

@@ -1,4 +1,4 @@
-instance-creation
+instance creation
 cellElementDefinition
 	^ self
 		geometry: BlRectangleGeometry new;

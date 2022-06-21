@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BlEventListener",
+	"category" : "MyNewLaserGame-Graphics-Cells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gridBoardGame"
+	],
+	"name" : "MirrorCellEventListener",
+	"type" : "normal"
+}

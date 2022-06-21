@@ -1,11 +1,8 @@
 instance creation
 controlPanelComposition
 
-	"self createControlPanel."
-
 	self
-		addChild: ((buttonElements at: 1) relocate:
-					 11 @ 10);
+		addChild: ((buttonElements at: 1) relocate: 11 @ 10);
 		addChild: ((buttonElements at: 2) relocate: 12 @ 70);
 		addChild: ((buttonElements at: 3) relocate: 11 @ 130);
 		addChild: ((buttonElements at: 4) relocate: 10 @ 190);
