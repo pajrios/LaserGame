@@ -1,0 +1,4 @@
+accessing
+cellElementPosition
+
+	^ cellElementPosition

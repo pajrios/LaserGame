@@ -1,3 +1,4 @@
 accessing
-boardGridCellElements: anObject
-	boardGridCellElements := anObject
+boardGridCellElements: aBoardGridCellElement
+
+	boardGridCellElements := aBoardGridCellElement 

@@ -1,12 +1,14 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "pajrios 6/23/2022 17:17",
 	"super" : "BlEventListener",
 	"category" : "MyNewLaserGame-Graphics-Cells",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"gridBoardGame"
+		"gridBoardGame",
+		"clickedCell",
+		"gridBoardElement"
 	],
 	"name" : "MirrorCellEventListener",
 	"type" : "normal"

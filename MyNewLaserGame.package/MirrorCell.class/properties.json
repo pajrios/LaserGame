@@ -1,12 +1,14 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "pajrios 6/25/2022 12:15",
 	"super" : "Cell",
 	"category" : "MyNewLaserGame-Model-Cells",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"leansLeft"
+		"leansLeft",
+		"clicked",
+		"announcer"
 	],
 	"name" : "MirrorCell",
 	"type" : "normal"

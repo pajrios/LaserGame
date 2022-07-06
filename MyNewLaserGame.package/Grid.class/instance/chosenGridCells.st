@@ -1,0 +1,4 @@
+accessing
+chosenGridCells
+
+	^ chosenGridCells

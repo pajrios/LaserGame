@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "GlamorousAuthor 1/22/2021 20:11",
+	"commentStamp" : "pajrios 6/27/2022 12:27",
 	"super" : "Object",
 	"category" : "MyNewLaserGame-Model-Grid",
 	"classinstvars" : [ ],
@@ -10,7 +10,9 @@
 		"numberOfColumns",
 		"numberOfRows",
 		"gridCells",
-		"laserBeamPath"
+		"laserBeamPath",
+		"chosenGridCells",
+		"hasChanged"
 	],
 	"name" : "Grid",
 	"type" : "normal"

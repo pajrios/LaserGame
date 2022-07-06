@@ -1,15 +1,20 @@
 SystemOrganization addCategory: #MyNewLaserGame!
-SystemOrganization addCategory: #'MyNewLaserGame-Directions'!
 SystemOrganization addCategory: #'MyNewLaserGame-Examples - Board Game'!
 SystemOrganization addCategory: #'MyNewLaserGame-Examples - Buttons'!
 SystemOrganization addCategory: #'MyNewLaserGame-Examples - CellElement'!
 SystemOrganization addCategory: #'MyNewLaserGame-Examples - ControlPanelElement'!
-SystemOrganization addCategory: #'MyNewLaserGame-Examples - GridElement'!
+SystemOrganization addCategory: #'MyNewLaserGame-Examples - Grid'!
 SystemOrganization addCategory: #'MyNewLaserGame-Graphics-Buttons'!
 SystemOrganization addCategory: #'MyNewLaserGame-Graphics-Cells'!
+SystemOrganization addCategory: #'MyNewLaserGame-Graphics-ControlPanel'!
 SystemOrganization addCategory: #'MyNewLaserGame-Graphics-Game'!
 SystemOrganization addCategory: #'MyNewLaserGame-Graphics-Grid'!
-SystemOrganization addCategory: #'MyNewLaserGame-Laser'!
 SystemOrganization addCategory: #'MyNewLaserGame-LaserGame'!
-SystemOrganization addCategory: #'MyNewLaserGame-Model'!
-SystemOrganization addCategory: #'MyNewLaserGame-Tests'!
+SystemOrganization addCategory: #'MyNewLaserGame-Model-Cells'!
+SystemOrganization addCategory: #'MyNewLaserGame-Model-ControlPanel'!
+SystemOrganization addCategory: #'MyNewLaserGame-Model-Directions'!
+SystemOrganization addCategory: #'MyNewLaserGame-Model-Grid'!
+SystemOrganization addCategory: #'MyNewLaserGame-Model-LaserBeam'!
+SystemOrganization addCategory: #'MyNewLaserGame-Tests-Cells'!
+SystemOrganization addCategory: #'MyNewLaserGame-Tests-Grid'!
+SystemOrganization addCategory: #'MyNewLaserGame-Tests-MirrorCell'!

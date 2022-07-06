@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BlEventListener",
+	"category" : "MyNewLaserGame-Graphics-Grid",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GridElementEventListener",
+	"type" : "normal"
+}

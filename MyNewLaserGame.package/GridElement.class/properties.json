@@ -7,9 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"boardGrid",
-		"boardGridCells",
 		"availableGridCells",
-		"boardGridWidth"
+		"boardGridWidth",
+		"boardCellElements"
 	],
 	"name" : "GridElement",
 	"type" : "normal"

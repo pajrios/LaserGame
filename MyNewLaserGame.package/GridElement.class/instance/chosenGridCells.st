@@ -1,3 +1,3 @@
 accessing
-availableGridCells
+chosenGridCells
 	^availableGridCells 

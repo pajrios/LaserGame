@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "MyNewLaserGame-Tests",
+	"category" : "MyNewLaserGame-Tests-MirrorCell",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

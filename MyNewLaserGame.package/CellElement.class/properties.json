@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "pajrios 6/20/2022 13:06",
+	"commentStamp" : "pajrios 7/6/2022 10:46",
 	"super" : "BlElement",
 	"category" : "MyNewLaserGame-Graphics-Cells",
 	"classinstvars" : [ ],
@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"cell",
-		"cellBorder"
+		"cellBorder",
+		"cellElementPosition",
+		"cellElementGridIndex"
 	],
 	"name" : "CellElement",
 	"type" : "normal"

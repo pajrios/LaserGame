@@ -1,0 +1,1 @@
+i am the definition of common characteristics of two mirror cell posible types. I will have two subclasses, one for each mirror cell type: MirrorCellLeft, which has a mirror left oriented and Mirror CellRight, which has a mirror right oriented.

@@ -1,3 +1,7 @@
 accessing
-laserElement: anObject
-	laserElement := anObject
+laserElement: aGridBoardElement
+
+	| aCellEventListener |
+	laserElement := aGridBoardElement .
+	aCellEventListener := self newCellEventListener laserElement: aGridBoardElement .
+	

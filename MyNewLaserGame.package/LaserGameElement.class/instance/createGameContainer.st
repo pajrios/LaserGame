@@ -14,6 +14,7 @@ createGameContainer
 				 bottom: 10
 				 left: 10).
 	self forceLayout.
-	self addChild: (gridBoardElement relocate: self padding right @ self padding top).
+	self addChild:
+		(gridBoardElement relocate: self padding right @ self padding top).
 	self addChild: (controlPanelElement relocate:
 			 self width / 2 @ (self geometryBounds origin y + self padding top))

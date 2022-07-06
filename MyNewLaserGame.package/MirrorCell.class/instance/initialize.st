@@ -1,4 +1,6 @@
 initialize
 initialize
+
 	super initialize.
-	self leanLeft
+	self leanLeft.
+	clicked := false 

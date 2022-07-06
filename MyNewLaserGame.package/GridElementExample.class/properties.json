@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "PedroJimenez 3/21/2021 18:09",
 	"super" : "Object",
-	"category" : "MyNewLaserGame-Examples - GridElement",
+	"category" : "MyNewLaserGame-Examples - Grid",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,0 +1,4 @@
+testing
+isEmptyCell 
+
+	^true

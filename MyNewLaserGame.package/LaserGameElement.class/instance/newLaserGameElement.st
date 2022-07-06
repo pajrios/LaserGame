@@ -1,5 +1,5 @@
 instance creation
 newLaserGameElement
+
 	GridFactory reSeed.
-	GridFactory randomizeGrid: self gridBoardElement boardGrid.
-	
+	GridFactory randomizeGrid: self gridBoardElement boardGrid

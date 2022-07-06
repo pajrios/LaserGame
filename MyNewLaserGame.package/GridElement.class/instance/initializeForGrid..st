@@ -2,7 +2,7 @@ initialization
 initializeForGrid: aGrid
 
 	self boardGrid: aGrid. "GridFactory defaultGrid"
-	self initializeBoardGridCellElements.
+	self initializeGridCellElements.
 	self background: (BlBackground paint: Color gray darker).
 	self border: (BlBorder paint: Color black width: 2).
 	self layout: BlGridLayout horizontal.
