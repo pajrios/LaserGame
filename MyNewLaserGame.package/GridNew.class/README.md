@@ -1,0 +1,1 @@
+I am a grid to get and present all cells that form part of the game. I will create the grid as an OrderedCollection of cells trying to simplify the way we address the cells in the original version.

@@ -25,5 +25,5 @@ newCellElement1
 				boardCellElements add:
 					(self newTargetCellElementAt: col @ row at: index).
 				self addChild: (boardCellElements at: index).
-				index := index + 1 ] ] ].
-	^ boardCellElements
+				index := index + 1 ] ] ]
+	
