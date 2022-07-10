@@ -2,7 +2,7 @@ instance creation
 newCellElement
 
 	| index aCellEventListener aGridEventListener |
-	aCellEventListener := self newCellEventListener.
+	aCellEventListener := self newMirrorCellEventListener.
 	index := 1.
 	1 to: boardGrid numberOfRows do: [ :row | 
 		1 to: boardGrid numberOfColumns do: [ :col | 

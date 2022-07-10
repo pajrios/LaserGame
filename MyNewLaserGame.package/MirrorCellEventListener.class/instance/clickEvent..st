@@ -10,7 +10,7 @@ clickEvent: anEvent
 	mirrorCellToRotate class = MirrorCellLeftElement ifTrue: [ 
 		cellToPut := MirrorCellRight new.
 		cellElementToPut := MirrorCellRightElement new addEventHandler:
-			                    gridBoardElement newCellEventListener.
+			                    gridBoardElement newMirrorCellEventListener.
 		self
 			changeCell: cellToPut
 			changeElement: cellElementToPut
@@ -29,7 +29,7 @@ clickEvent: anEvent
 	mirrorCellToRotate class = MirrorCellRightElement ifTrue: [ 
 		cellToPut := MirrorCellLeft new.
 		cellElementToPut := MirrorCellLeftElement new addEventHandler:
-			                    gridBoardElement newCellEventListener.
+			                    gridBoardElement newMirrorCellEventListener.
 		self changeCell: cellToPut changeElement: cellElementToPut gridLocation: mirrorCellGridLocation gridIndex: mirrorCellElementIndex 
 		"gridBoardGame at1: mirrorCellGridLocation put: cellToPut.
 		gridBoardElement removeChildAt: mirrorCellElementIndex.

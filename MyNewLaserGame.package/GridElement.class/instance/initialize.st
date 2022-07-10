@@ -2,4 +2,4 @@ initialization
 initialize
 
 	super initialize.
-	self initializeForGrid: GridFactory demoGrid1
+	self initializeForGrid: GridFactory "demoGrid1" defaultGrid

@@ -1,4 +1,4 @@
-as yet unclassified
+event
 mirrorCellEventListener
 
 	^MirrorCellEventListener new

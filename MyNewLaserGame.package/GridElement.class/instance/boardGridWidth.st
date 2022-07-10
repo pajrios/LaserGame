@@ -1,4 +1,4 @@
 accessing
-boardGridWidth 
+boardGridWidth
 
-	^self width
+	^ boardGrid numberOfColumns * CellElement cellElementSize 

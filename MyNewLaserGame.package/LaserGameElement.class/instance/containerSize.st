@@ -1,4 +1,4 @@
 instance creation
 containerSize
 
-	^self gridBoardElement size + self controlPanelElement size
+	^ gridBoardElement boardGrid numberOfColumns * 30 + controlPanelElement width @ gridBoardElement boardGrid numberOfRows * 30

@@ -1,3 +1,4 @@
 geometry
 cellSize
-	^50
+
+	^ self class cellElementSize
