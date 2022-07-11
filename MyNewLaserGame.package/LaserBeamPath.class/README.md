@@ -1,0 +1,1 @@
+I am here to help build up the laser beam for the game. Laser is split in sections to cover the path finally ending on the target cell.
