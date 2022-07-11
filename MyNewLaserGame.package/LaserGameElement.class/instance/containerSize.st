@@ -1,4 +1,11 @@
 instance creation
 containerSize
 
-	^ gridBoardElement boardGrid numberOfColumns * 30 + controlPanelElement width @ gridBoardElement boardGrid numberOfRows * 30
+	| containerWidth containerHeight |
+	containerWidth := self gridBoardElementWidth
+	                  + controlPanelElement width
+	                  + (3 * self offsetSpace).
+	containerHeight := controlPanelElement height max:
+		                   self gridBoardElementHeight.
+	containerHeight := containerHeight + (2 * self offsetSpace).
+	^ containerWidth @ containerHeight
