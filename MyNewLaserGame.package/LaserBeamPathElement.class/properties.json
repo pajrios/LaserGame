@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"laserBeamOrigin",
+		"laserBeamEnd",
+		"laserBeam",
+		"gridBoard"
+	],
 	"name" : "LaserBeamPathElement",
 	"type" : "normal"
 }
