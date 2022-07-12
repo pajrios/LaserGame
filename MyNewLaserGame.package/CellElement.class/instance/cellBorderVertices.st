@@ -3,13 +3,13 @@ cellBorderVertices
 
 	"A collection of points (vertices) to draw the border of cells as a polygon.
 	I am using SpartaShapeFactory methods for drawing"
-
+self halt.
 	^ { 
 		  (0 @ 0).
 		  (self cellSize @ 0).
 		  (self cellSize @ self cellSize).
 		  (0 @ self cellSize) }
-	
+
 	" Old method: 
 		
 		self

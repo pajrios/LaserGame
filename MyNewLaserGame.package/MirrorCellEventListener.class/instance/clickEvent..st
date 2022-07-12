@@ -3,7 +3,7 @@ clickEvent: anEvent
 
 	| mirrorCellToRotate mirrorCellGridLocation mirrorCellElementIndex cellToPut cellElementToPut |
 	"When a mirror cell is clicked on the GridElement we have to change mirror orientetaion from left orientation to right orientation and viceversa""gridBoardGame := #LaserGameElement gridBoardElement."
-	self halt.
+
 	mirrorCellToRotate := anEvent target.
 	mirrorCellElementIndex := mirrorCellToRotate cellElementGridIndex.
 	mirrorCellGridLocation := mirrorCellToRotate cellElementPosition.

@@ -5,7 +5,7 @@ drawCellBorderOn: aCanvas
 	 the vertices of the square"
 
 	aCanvas stroke
-		path: (aCanvas shape polygon: self cellBorderVertices);
+		path: (aCanvas shape polygon: self class cellBorderVertices);
 		paint: Color black;
 		width: 1;
 		draw

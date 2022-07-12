@@ -3,8 +3,6 @@ createGameContainer1
 
 	"Container should allocate a grid board of maximum 10 columns by 10 rows"
 
-	self halt.
-
 	self
 		background: BrGlamorousColors backdropColor;
 		border: (BlBorder paint: Color black width: 5);
