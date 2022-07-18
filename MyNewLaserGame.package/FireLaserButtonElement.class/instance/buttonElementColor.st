@@ -1,3 +1,3 @@
 parameters
 buttonElementColor
-	^ Color red alpha: 0.5
+	^Color red alpha: 0.5

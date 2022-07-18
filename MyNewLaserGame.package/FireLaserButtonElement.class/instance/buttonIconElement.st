@@ -1,3 +1,3 @@
 parameters
 buttonIconElement
-	^ BrGlamorousIcons debug asElement
+	^BrGlamorousIcons debug asElement

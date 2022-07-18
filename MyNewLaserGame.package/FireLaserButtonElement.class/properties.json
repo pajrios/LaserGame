@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
-	"super" : "BasicButtonElement",
-	"category" : "MyNewLaserGame-Examples - Buttons",
+	"super" : "GameButtonElement",
+	"category" : "MyNewLaserGame-Graphics-Buttons",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

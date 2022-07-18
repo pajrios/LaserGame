@@ -1,5 +1,7 @@
-as yet unclassified
+parameters
 buttonElementAction
 	laserIsActive
 		ifFalse: [ self fireLaserButtonAction ]
 		ifTrue: [ self stopLaserButtonAction ]
+
+	
