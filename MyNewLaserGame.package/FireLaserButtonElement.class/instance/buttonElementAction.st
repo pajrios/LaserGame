@@ -1,7 +1,7 @@
 parameters
 buttonElementAction
-	laserIsActive
-		ifFalse: [ self fireLaserButtonAction ]
-		ifTrue: [ self stopLaserButtonAction ]
 
-	
+	self halt.
+	laserIsActive
+		ifFalse: [ self fireLaserButtonAction2 ]
+		ifTrue: [ self stopLaserButtonAction2 ]

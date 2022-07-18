@@ -6,8 +6,8 @@ initialize
 	self
 		gameButtonElement: self buttonIconElement
 		color: self buttonElementColor
-		label: self buttonElementLabel.
+		label: self buttonElementLabel;
+		containerName: #FireLaserButton.
 	self buttonElementAction.
-	self containerName: #FireLaserButton
-	"self
-		addChild: (self gameButtonLabelElement: self gameButtonLabelText)"
+	
+	

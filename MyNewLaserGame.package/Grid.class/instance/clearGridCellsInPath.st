@@ -1,3 +1,5 @@
 action
 clearGridCellsInPath
-	self calculateLaserBeamPath 
+
+	self calculateLaserBeamPath.
+	self laserBeamPath removeAll.

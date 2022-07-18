@@ -1,14 +1,13 @@
 action
-fireLaserButtonAction
+fireLaserButtonAction2
 
 	^ self action: [ :aButtonElement :aButtonModel | "defaultBackground"
 		  aButtonModel model: #clicked.
 		  self
 			  inform: 'Laser Fired';
 			  laserIsActive: true;
-			  "buttonElementLabel;""gameButtonElement: self buttonElementIcon
-					color: self buttonElementColor"
 			  gameButtonElement: self buttonIconElement
 			  color: self buttonElementColor
-			  label: self buttonElementLabel;
-			  buttonElementAction ]
+			  label: self buttonElementLabel.
+		  controlPanelElement gridBoardGame fireLaser.
+		  self buttonElementAction ]

@@ -1,11 +1,12 @@
 accessing
 calculateLaserBeamPath
-	| cell dirSym element next |
+
+	| cell dirSym segment next |
 	self laserBeamPath: OrderedCollection new.
-	cell := self startingGridCellPosition .
+	cell := self startingGridCellPosition.
 	dirSym := #south.
-	element := LaserBeamPath gridCell: cell  gridCellEntrySide: dirSym.
-	[ self laserBeamPath addLast: element.
-		next := element nextLaserPathElementIn: self.
-		next isNil] whileFalse: [ 
-			element := next ] 
+	segment := LaserBeamPath gridCell: cell gridCellEntrySide: dirSym.
+	[ 
+	self laserBeamPath addLast: segment.
+	next := segment nextLaserPathSegmentIn: self.
+	next isNil ] whileFalse: [ segment := next ]
