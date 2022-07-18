@@ -1,5 +1,5 @@
 calculations
-nextLaserPathElementIn: aGrid
+nextLaserPathSegmentIn: aGrid
 	| loc dirSym direction vector newLoc nextCell |
 	loc := self gridCell gridLocation.
 	dirSym := self gridCell laserExitSideFor: self gridCellEntrySide .
