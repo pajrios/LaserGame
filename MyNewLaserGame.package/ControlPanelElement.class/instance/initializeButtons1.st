@@ -1,7 +1,6 @@
 initialization
-initializeButtons
+initializeButtons1
 
-	self halt.
 	buttonElements := Dictionary new.
 	buttonElements
 		at: 1 put: (NewGameButton new
