@@ -6,7 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"laserIsActive"
+		"laserIsActive",
+		"gridBoardGame",
+		"gridBoardElement",
+		"controlPanelElement"
 	],
 	"name" : "GameButtonElement",
 	"type" : "normal"
