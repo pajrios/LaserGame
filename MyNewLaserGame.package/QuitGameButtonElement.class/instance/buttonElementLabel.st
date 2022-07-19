@@ -1,0 +1,3 @@
+parameters
+buttonElementLabel
+	^ 'Quit Game'

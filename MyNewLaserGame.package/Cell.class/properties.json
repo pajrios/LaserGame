@@ -9,6 +9,7 @@
 		"cellSegments",
 		"activeSegments",
 		"laserExitSides",
+		"grid",
 		"gridLocation",
 		"gridDirection"
 	],

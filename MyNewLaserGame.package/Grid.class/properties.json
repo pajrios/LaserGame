@@ -12,7 +12,9 @@
 		"gridCells",
 		"laserBeamPath",
 		"chosenGridCells",
-		"hasChanged"
+		"hasChanged",
+		"mirrorLeftCellsCount",
+		"mirrorRightCellsCount"
 	],
 	"name" : "Grid",
 	"type" : "normal"
