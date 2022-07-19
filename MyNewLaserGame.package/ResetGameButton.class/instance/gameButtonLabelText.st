@@ -1,3 +1,0 @@
-initialization
-gameButtonLabelText
-	^ 'Reset Game'

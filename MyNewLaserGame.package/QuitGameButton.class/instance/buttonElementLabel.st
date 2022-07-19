@@ -1,3 +1,0 @@
-parameters
-buttonElementLabel
-	^ 'Quit Game'

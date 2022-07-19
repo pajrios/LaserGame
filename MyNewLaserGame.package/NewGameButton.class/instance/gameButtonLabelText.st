@@ -1,3 +1,0 @@
-accesing
-gameButtonLabelText
-	^ 'New Game'
