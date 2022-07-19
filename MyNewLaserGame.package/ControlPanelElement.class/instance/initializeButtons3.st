@@ -3,13 +3,13 @@ initializeButtons3
 
 	buttonElements := Dictionary new.
 	buttonElements
-		at: 1 put: (NewGameButton new
+		at: 1 put: (NewGameButtonElement new
 				 controlPanelElement: self);
 		at: 2 put: (FireLaserButtonElement new
 			 controlPanelElement: self);
-		at: 3 put: (QuitGameButton new
+		at: 3 put: (QuitGameButtonElement new
 			 controlPanelElement: self);
-		at: 4 put: (ResetGameButton new
+		at: 4 put: (ResetGameButtonElement new
 			 controlPanelElement: self);
-		at: 5 put: (UndoButton new
+		at: 5 put: (UndoButtonElement new
 			 controlPanelElement: self)

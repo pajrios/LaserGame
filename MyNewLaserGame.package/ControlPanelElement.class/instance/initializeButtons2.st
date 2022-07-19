@@ -4,18 +4,18 @@ initializeButtons2
 	self halt.
 	buttonElements := Dictionary new.
 	buttonElements
-		at: 1 put: (NewGameButton new
+		at: 1 put: (NewGameButtonElement new
 				 gridBoardGame: self gridButtonConnection;
 				gridBoardElement: self gridElementButtonConnection );
 		at: 2 put: (FireLaserButtonElement new
 			  gridBoardGame: self gridButtonConnection;
 				gridBoardElement: self gridElementButtonConnection);
-		at: 3 put: (QuitGameButton new
+		at: 3 put: (QuitGameButtonElement new
 			  gridBoardGame: self gridButtonConnection;
 				gridBoardElement: self gridElementButtonConnection);
-		at: 4 put: (ResetGameButton new
+		at: 4 put: (ResetGameButtonElement new
 			  gridBoardGame: self gridButtonConnection;
 				gridBoardElement: self gridElementButtonConnection);
-		at: 5 put: (UndoButton new
+		at: 5 put: (UndoButtonElement new
 			  gridBoardGame: self gridButtonConnection;
 				gridBoardElement: self gridElementButtonConnection)

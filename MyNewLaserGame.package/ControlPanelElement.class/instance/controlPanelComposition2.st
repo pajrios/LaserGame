@@ -2,13 +2,13 @@ instance creation
 controlPanelComposition2
 
 	self
-		addChild: ((NewGameButton new
+		addChild: ((NewGameButtonElement new
 				  controlPanelElement: self) relocate: 11 @ 10);
 		addChild: ((FireLaserButtonElement new
 				  controlPanelElement: self) relocate: 12 @ 70);
-		addChild: ((QuitGameButton new
+		addChild: ((QuitGameButtonElement new
 				  controlPanelElement: self) relocate: 11 @ 130);
-		addChild: ((ResetGameButton new
+		addChild: ((ResetGameButtonElement new
 				  controlPanelElement: self) relocate: 10 @ 190);
-		addChild: ((UndoButton new
+		addChild: ((UndoButtonElement new
 				  controlPanelElement: self) relocate: 27 @ 250)
