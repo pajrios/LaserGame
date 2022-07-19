@@ -14,7 +14,8 @@
 		"chosenGridCells",
 		"hasChanged",
 		"mirrorLeftCellsCount",
-		"mirrorRightCellsCount"
+		"mirrorRightCellsCount",
+		"mirrorMoves"
 	],
 	"name" : "Grid",
 	"type" : "normal"

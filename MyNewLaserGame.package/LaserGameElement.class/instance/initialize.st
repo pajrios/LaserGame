@@ -7,6 +7,6 @@ initialize
 
 	self halt.
 	self createControlPanelElement .
-	self createGameContainer1.
+	self createGameContainer.
 	self size.
 	self createShowGameSpace

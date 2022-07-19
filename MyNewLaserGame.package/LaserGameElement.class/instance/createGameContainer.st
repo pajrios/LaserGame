@@ -1,5 +1,5 @@
 instance creation
-createGameContainer1
+createGameContainer
 
 	"Container should allocate a grid board of maximum 10 columns by 10 rows"
 
