@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CountersLed",
+	"category" : "MyNewLaserGame-Model-Leds",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MovesCounterLed",
+	"type" : "normal"
+}
