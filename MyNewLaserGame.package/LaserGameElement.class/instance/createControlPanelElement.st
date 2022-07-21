@@ -9,4 +9,4 @@ createControlPanelElement
 		self gridBoardElement boardGrid.
 	self controlPanelElement gridBoardElement: self gridBoardElement.
 	"self controlPanelElement initializeButtons."
-	self controlPanelElement controlPanelComposition2
+	self controlPanelElement controlPanelComposition

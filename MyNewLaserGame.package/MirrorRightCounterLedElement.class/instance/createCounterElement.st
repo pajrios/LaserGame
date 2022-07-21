@@ -1,6 +1,8 @@
-as yet unclassified
+led creation
 createCounterElement
 
 	| counterElement |
 	counterElement := MirrorRightCounterLed new asForm.
-	^ counterElement asElement
+	counterElement := counterElement asElement.
+	counterElement containerName: 'MirrorRightCounter'.
+	^ counterElement

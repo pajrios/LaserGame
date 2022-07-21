@@ -6,8 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"controlPanelElement"
+		"controlPanelElement",
+		"counterElement"
 	],
-	"name" : "MirrorRightCounterLedElement",
+	"name" : "LaserBeamPathSegmentsCounterLedElement",
 	"type" : "normal"
 }

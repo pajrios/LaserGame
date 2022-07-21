@@ -8,6 +8,7 @@
 	"instvars" : [
 		"controlPanelElement",
 		"buttonElements",
+		"ledElements",
 		"gridBoardGame",
 		"gridBoardElement",
 		"laserGameElement"

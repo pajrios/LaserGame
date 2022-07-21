@@ -15,7 +15,8 @@
 		"hasChanged",
 		"mirrorLeftCellsCount",
 		"mirrorRightCellsCount",
-		"mirrorMoves"
+		"mirrorMoves",
+		"laserBeamPathSegmentCount"
 	],
 	"name" : "Grid",
 	"type" : "normal"

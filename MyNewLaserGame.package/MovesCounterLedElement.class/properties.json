@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"controlPanelElement"
+	],
 	"name" : "MovesCounterLedElement",
 	"type" : "normal"
 }

@@ -1,4 +1,4 @@
-as yet unclassified
+connecting
 gridElementButtonConnection
 
 	^ self laserGameElement gridBoardElement

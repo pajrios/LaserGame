@@ -8,5 +8,4 @@ createControlPanel
 		  border: (BlBorder paint: Color black width: 2);
 		  effect: BlGaussianShadowEffect new;
 		  containerName: #ControlPanel;
-		  "layout: BlLinearLayout vertical withSpaceEqualization;""layout: BlLinearLayout new withoutSpaceEqualization;"
-			  forceLayout
+forceLayout

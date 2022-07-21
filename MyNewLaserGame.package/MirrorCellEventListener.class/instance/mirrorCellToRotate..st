@@ -8,14 +8,17 @@ mirrorCellToRotate: aMirrorCellToRotate
 		ifFalse: [ 
 			cellToPut := MirrorCellLeft new.
 			cellElementToPut := MirrorCellLeftElement new addEventHandler:
-				                    gridBoardElement newMirrorCellEventListener]
+				                    gridBoardElement newMirrorCellEventListener ]
 		ifTrue: [ 
 			cellToPut := MirrorCellRight new.
 			cellElementToPut := MirrorCellRightElement new addEventHandler:
-				                    gridBoardElement newMirrorCellEventListener].
-			self updateMovesCounters: cellToPut.
+				                    gridBoardElement newMirrorCellEventListener ].
+
 	self
 		changeCell: cellToPut
 		changeElement: cellElementToPut
 		gridLocation: mirrorCellGridLocation
-		gridIndex: mirrorCellElementIndex
+		gridIndex: mirrorCellElementIndex.
+		
+	self updateMovesCounters: cellToPut.
+	self updateMovesCountersLed
