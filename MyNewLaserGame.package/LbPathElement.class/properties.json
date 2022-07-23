@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "MyNewLaserGame-Graphics-LaserBeam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"laserBeamOrigin",
+		"laserBeamEnd",
+		"laserBeam",
+		"gridBoard"
+	],
+	"name" : "LbPathElement",
+	"type" : "normal"
+}

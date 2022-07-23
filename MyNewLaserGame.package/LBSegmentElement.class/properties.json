@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BlLineGeometry",
+	"category" : "MyNewLaserGame-Examples-LaserBeamSegments",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LBSegmentElement",
+	"type" : "normal"
+}

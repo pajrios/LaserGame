@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LBSegmentElement",
+	"category" : "MyNewLaserGame-Examples-LaserBeamSegments",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LBHSegmentElement",
+	"type" : "normal"
+}

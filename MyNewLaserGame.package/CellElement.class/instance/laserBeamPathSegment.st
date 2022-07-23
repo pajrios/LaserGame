@@ -1,4 +1,4 @@
 as yet unclassified
 laserBeamPathSegment
 
-	^LaserBeamPathElement new
+	^LbPathElement new
