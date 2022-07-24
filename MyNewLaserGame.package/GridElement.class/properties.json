@@ -8,7 +8,8 @@
 	"instvars" : [
 		"boardGrid",
 		"availableGridCells",
-		"boardCellElements"
+		"boardCellElements",
+		"laserBeamPathElements"
 	],
 	"name" : "GridElement",
 	"type" : "normal"

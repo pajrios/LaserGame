@@ -10,4 +10,5 @@ fireLaserButtonAction2
 			  color: self buttonElementColor
 			  label: self buttonElementLabel.
 		  controlPanelElement gridBoardGame fireLaser.
+		  controlPanelElement gridBoardElement fireLaser.
 		  self buttonElementAction ]

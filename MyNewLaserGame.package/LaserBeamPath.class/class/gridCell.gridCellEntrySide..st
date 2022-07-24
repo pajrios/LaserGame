@@ -1,9 +1,10 @@
 as yet unclassified
 gridCell: aGridCell gridCellEntrySide: anEntrySymbol
+
 	| model |
 	model := self basicNew.
-	model 	
+	model
 		gridCell: aGridCell;
 		gridCellEntrySide: anEntrySymbol.
-	model	initialize.
-	^model 
+	model initialize.
+	^ model
