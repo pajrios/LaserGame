@@ -1,4 +1,4 @@
-as yet unclassified
+entrySide
 lbEntrySideOnMirrorCellLeft: aCellEntrySide
 
 	aCellEntrySide = #south ifTrue: [  

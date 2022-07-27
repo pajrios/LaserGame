@@ -1,4 +1,4 @@
-as yet unclassified
+entrySide
 lbEntrySideOnBlankCell: aCellEntrySide
 
 	aCellEntrySide = #south ifTrue: [ 

@@ -1,7 +1,7 @@
 instance creation
-newBlankCellElementAt1: aGridPosition at: aGridIndex
+newBlankCellElementAt1: aGridLocation at: aGridIndex
 
 	boardCellElements add: (self newBlankCellElement
-			 cellElementPosition: aGridPosition;
+			 cellElementPosition: aGridLocation;
 			 cellElementGridIndex: aGridIndex).
 	self addChild: boardCellElements at: aGridIndex

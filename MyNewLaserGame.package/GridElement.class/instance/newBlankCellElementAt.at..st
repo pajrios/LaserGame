@@ -1,6 +1,6 @@
 instance creation
-newBlankCellElementAt: aGridPosition at: aGridIndex
+newBlankCellElementAt: aGridLocation at: aGridIndex
 
 	^ BlankCellElement new
-		  cellElementPosition: aGridPosition;
+		  cellElementPosition: aGridLocation;
 		  cellElementGridIndex: aGridIndex
