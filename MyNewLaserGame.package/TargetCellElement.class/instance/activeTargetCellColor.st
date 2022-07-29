@@ -1,3 +1,3 @@
-drawing
+drawing - support
 activeTargetCellColor
 	^Color green

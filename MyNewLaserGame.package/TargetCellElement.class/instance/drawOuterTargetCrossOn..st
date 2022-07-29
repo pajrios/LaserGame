@@ -1,17 +1,28 @@
 drawing
 drawOuterTargetCrossOn: aCanvas
+
 	| targetLineOrigin targetLineEnd |
-
 	"Para la línea vertical de la cruz"
+	targetLineOrigin := self class cellElementHalfWidth
+	                    @ self class cellElementOffset.
+	targetLineEnd := self class cellElementHalfSize
+	                 @
+	                 (self class cellElementSize
+	                  - self class cellElementOffset).
 
-	targetLineOrigin := (self cellSize / 2) @ self cellOffset.
-	targetLineEnd := (self cellSize / 2) @ (self cellSize - self cellOffset).
+	self
+		drawLineElementOn: aCanvas
+		lineOrigin: targetLineOrigin
+		lineEnd: targetLineEnd.
 
-	self drawLineElementOn: aCanvas lineOrigin: targetLineOrigin  lineEnd: targetLineEnd.
-		
-	"Para la línea horizontal de la cruz"	
-	
-	targetLineOrigin := self cellOffset @ (self cellSize / 2).
-	targetLineEnd := (self cellSize - self cellOffset) @ (self cellSize / 2).
+	"Para la línea horizontal de la cruz"
+	targetLineOrigin := self class cellElementOffset
+	                    @ self class cellElementHalfSize.
+	targetLineEnd := self class cellElementSize
+	                 - self class cellElementOffset
+	                 @ self class cellElementHalfSize.
 
-	self drawLineElementOn: aCanvas lineOrigin: targetLineOrigin  lineEnd: targetLineEnd 
+	self
+		drawLineElementOn: aCanvas
+		lineOrigin: targetLineOrigin
+		lineEnd: targetLineEnd
