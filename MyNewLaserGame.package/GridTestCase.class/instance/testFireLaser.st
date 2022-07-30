@@ -2,7 +2,7 @@ tests
 testFireLaser
 
 	| grid |
-	grid := self generateDemoGrid.
+	grid := self generateTestDemoGrid.
 	grid fireLaser.
 	self assert: [ grid laserIsActive ].
 	self assert: [ grid startingGridCellPosition isActivated ].

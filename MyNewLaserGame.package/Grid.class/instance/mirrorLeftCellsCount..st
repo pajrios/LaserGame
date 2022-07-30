@@ -1,4 +1,4 @@
 accessing
-mirrorLeftCellsCount: anObject
+mirrorLeftCellsCount: aNumber
 
-	mirrorLeftCellsCount := anObject
+	mirrorLeftCellsCount := aNumber

@@ -1,7 +1,7 @@
 tests
 testGridCellInteractions
 	| grid cell expectedGridCellsActiveList foundGridCellsActive |
-	grid := self generateDemoGrid.
+	grid := self generateTestDemoGrid.
 	cell := grid at: grid targetGridCellPosition .
 	self assert: cell class equals: TargetCell.
 	self assert: cell isInactive.

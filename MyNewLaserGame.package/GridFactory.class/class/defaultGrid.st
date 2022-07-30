@@ -1,3 +1,4 @@
-as yet unclassified
+instance creation
 defaultGrid
-	^self randomizedGridOfExtent: 8 @ 10
+
+	^ self randomizedGridOfExtent1: 8 @ 10

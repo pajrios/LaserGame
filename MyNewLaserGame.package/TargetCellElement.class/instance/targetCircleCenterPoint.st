@@ -1,4 +1,5 @@
 geometry
 targetCircleCenterPoint
 
-	targetCircleCenterPoint := "self cellSize / 2 @ (self cellSize / 2)" CellElement cellElementHalfWidth @ CellElement cellElementHalfHeight 
+	targetCircleCenterPoint := self class cellElementHalfWidth
+	                           @ self class cellElementHalfHeight 
