@@ -15,6 +15,7 @@
 		"hasChanged",
 		"mirrorLeftCellsCount",
 		"mirrorRightCellsCount",
+		"blankCellsCount",
 		"mirrorMoves",
 		"laserBeamPathSegmentCount"
 	],

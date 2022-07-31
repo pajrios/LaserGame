@@ -1,5 +1,5 @@
 instance creation
-newCellElement1
+newCellElement
 
 	| index |
 	index := 1.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectAnyCell: aGridLocation
 
 	^ self gridCells at: aGridLocation.

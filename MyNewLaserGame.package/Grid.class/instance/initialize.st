@@ -8,6 +8,7 @@ initialize
 	self
 		mirrorLeftCellsCount: 0;
 		mirrorRightCellsCount: 0;
+		blankCellsCount: 0;
 		mirrorMoves: 0;
 		laserBeamPathSegmentCount: 0
 	"self gridCells: Dictionary new.

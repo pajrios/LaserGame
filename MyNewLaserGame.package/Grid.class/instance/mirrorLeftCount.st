@@ -1,4 +1,4 @@
-as yet unclassified
+counter
 mirrorLeftCount
 
 	mirrorLeftCellsCount := mirrorLeftCellsCount + 1

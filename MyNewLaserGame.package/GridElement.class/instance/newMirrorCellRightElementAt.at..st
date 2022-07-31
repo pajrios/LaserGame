@@ -1,7 +1,7 @@
 instance creation
 newMirrorCellRightElementAt: aGridPosition at: aGridIndex
 
-	^ MirrorCellRightElement new
+	^ self newMirrorCellRightElement
 		  addEventHandler: self newMirrorCellEventListener;
 		  cellElementPosition: aGridPosition;
 		  cellElementGridIndex: aGridIndex

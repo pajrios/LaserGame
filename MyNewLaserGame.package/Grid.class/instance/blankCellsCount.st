@@ -1,0 +1,4 @@
+accessing
+blankCellsCount
+
+	^ blankCellsCount

@@ -2,10 +2,11 @@ as yet unclassified
 randomizedMirrorCell1: aGrid
 
 	^ self randomBoolean
-		  ifTrue: [ | cell |
+		  ifTrue: [ 
+			  | cell |
 			  cell := aGrid class newMirrorCellLeft: aGrid.
-				cell cellCount: aGrid mirrorLeftCount ]
+			  cell cellCount: aGrid mirrorLeftCount ]
 		  ifFalse: [ 
-			| cell |
+			  | cell |
 			  cell := aGrid class newMirrorCellRight: aGrid.
-				  cell cellCount: aGrid mirrorRightCount ]
+			  cell cellCount: aGrid mirrorRightCount ]

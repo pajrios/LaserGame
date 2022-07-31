@@ -1,4 +1,4 @@
 mouse handlers
 clickEvent: anEvent
 
-	self mirrorCellToRotate: anEvent target
+	self cellToRotate: anEvent target
