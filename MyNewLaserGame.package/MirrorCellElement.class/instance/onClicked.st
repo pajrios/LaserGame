@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 onClicked
 
 	self cell isClicked ifTrue: [ self onClicked ].

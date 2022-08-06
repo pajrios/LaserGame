@@ -8,7 +8,7 @@ changeCell: aCellToPut changeElement: aCellElementToPut gridLocation: aGridLocat
 	gridBoardGame at1: aGridLocation put: aCellToPut.
 	gridBoardElement removeChildAt: anIndex.
 	gridBoardElement boardCellElements at: anIndex put: aCellElementToPut.
-	aCellElementToPut cellElementPosition: aGridLocation.
+	aCellElementToPut cellElementLocation: aGridLocation.
 	gridBoardElement addChild: aCellElementToPut at: anIndex.
-	aCellElementToPut cellElementGridIndex: anIndex.
+	aCellElementToPut cellElementIndex: anIndex.
 	gridBoardGame mirrorMoves: gridBoardGame mirrorMoves + 1

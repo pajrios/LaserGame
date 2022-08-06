@@ -1,29 +1,29 @@
 changes
-cellToRotate: aMirrorCell
+cellToRotate: aMirrorCell cellLocation: aCellLocation cellIndex: aCellIndex
 
 	"Identify a mirror cell element to be rotated in the GridElement defined.
 	Changes the existing mirror left oriented by a mirror right oriented and viceversa"
 
-	| gridLocation cellElementIndex cellToPut cellElementToPut |
-	gridLocation := aMirrorCell cellElementLocation.
-	cellElementIndex := aMirrorCell cellElementIndex.
+	| cellToPut cellElementToPut |
 	aMirrorCell class = MirrorCellLeftElement
 		ifFalse: [ 
 			cellToPut := MirrorCellLeft new.
 			cellElementToPut := gridBoardElement
-				                    newMirrorCellLeftElementAt: gridLocation
-				                    at: cellElementIndex ]
+				                    newMirrorCellLeftElementAt:
+				                    aCellLocation
+				                    at: aCellIndex ]
 		ifTrue: [ 
 			cellToPut := MirrorCellRight new.
 			cellElementToPut := gridBoardElement
-				                    newMirrorCellRightElementAt: gridLocation
-				                    at: cellElementIndex ].
+				                    newMirrorCellRightElementAt:
+				                    aCellLocation
+				                    at: aCellIndex ].
 
 	self
 		changeCell: cellToPut
 		changeElement: cellElementToPut
-		gridLocation: gridLocation
-		gridIndex: cellElementIndex.
+		gridLocation: aCellLocation
+		gridIndex: aCellIndex.
 
 	self updateMovesCounters: cellToPut.
 	self updateMovesCountersLed

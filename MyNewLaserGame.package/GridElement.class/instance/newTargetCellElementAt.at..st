@@ -2,5 +2,7 @@ instance creation
 newTargetCellElementAt: aGridPosition at: aGridIndex
 
 	^ self newTargetCellElement
-		  cellElementPosition: aGridPosition;
-		  cellElementGridIndex: aGridIndex
+		  cellElementLocation: aGridPosition;
+		  cellElementIndex: aGridIndex;
+			laserIsActive: boardGrid laserIsActive;
+		  cellBoardGrid: boardGrid

@@ -2,4 +2,5 @@ initialization
 initialize
 
 	super initialize.
-	self initializeForGrid: GridFactory "demoGrid1" defaultGrid
+	self laserIsActive: false.
+	self initializeForGrid: GridFactory defaultGrid "demoGrid1"

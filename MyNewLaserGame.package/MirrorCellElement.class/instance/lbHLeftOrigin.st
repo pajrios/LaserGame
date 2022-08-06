@@ -1,0 +1,4 @@
+geometry
+lbHLeftOrigin
+
+	^ self cellLeftSideCenter

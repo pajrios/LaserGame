@@ -3,5 +3,7 @@ newMirrorCellLeftElementAt: aGridPosition at: aGridIndex
 
 	^ self newMirrorCellLeftElement
 		  addEventHandler: self newMirrorCellEventListener;
-		  cellElementPosition: aGridPosition;
-		  cellElementGridIndex: aGridIndex
+		  cellElementLocation: aGridPosition;
+		  cellElementIndex: aGridIndex;
+		laserIsActive: boardGrid laserIsActive;
+		  cellBoardGrid: boardGrid

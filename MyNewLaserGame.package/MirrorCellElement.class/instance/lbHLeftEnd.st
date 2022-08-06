@@ -1,0 +1,6 @@
+geometry
+lbHLeftEnd
+	
+		^self cellCenterPoint
+
+	

@@ -1,6 +1,6 @@
 accessing
-cellElementGridIndex
+cellElementIndex
 
 	"Returns cell index in the cell elements ordered collection"
 
-	^ cellElementGridIndex
+	^ cellElementIndex

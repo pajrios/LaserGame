@@ -1,6 +1,6 @@
 accessing
-cellElementGridIndex: aCellElementIndex
+cellElementIndex: aCellElementIndex
 
 	"Adquires cell's index position of cell in GridElement >> boardCellElements OrderedCollection"
 
-	cellElementGridIndex := aCellElementIndex
+	cellElementIndex := aCellElementIndex

@@ -8,8 +8,11 @@
 	"instvars" : [
 		"cell",
 		"cellBorder",
-		"cellElementPosition",
-		"cellElementGridIndex"
+		"cellElementIndex",
+		"cellElementLocation",
+		"laserIsActive",
+		"cellElementEntrySide",
+		"cellBoardGrid"
 	],
 	"name" : "CellElement",
 	"type" : "normal"
