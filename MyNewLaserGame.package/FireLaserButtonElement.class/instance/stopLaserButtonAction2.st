@@ -10,4 +10,5 @@ stopLaserButtonAction2
 			  color: self buttonElementColor
 			  label: self buttonElementLabel.
 		  controlPanelElement gridBoardGame stopLaser.
+		  controlPanelElement gridBoardElement stopLaser1.
 		  self buttonElementAction ]

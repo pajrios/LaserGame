@@ -5,6 +5,7 @@ cellToRotate: aMirrorCell
 	Changes the existing mirror left oriented by a mirror right oriented and viceversa"
 
 	| gridLocation cellElementIndex cellToPut cellElementToPut |
+	
 	gridLocation := aMirrorCell cellElementLocation.
 	cellElementIndex := aMirrorCell cellElementIndex.
 	aMirrorCell class = MirrorCellLeftElement
@@ -20,7 +21,7 @@ cellToRotate: aMirrorCell
 				                    at: cellElementIndex ].
 
 	self
-		changeCell: cellToPut
+		changeCell1: cellToPut
 		changeElement: cellElementToPut
 		gridLocation: gridLocation
 		gridIndex: cellElementIndex.

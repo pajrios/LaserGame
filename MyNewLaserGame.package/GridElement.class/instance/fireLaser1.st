@@ -3,7 +3,7 @@ fireLaser1
 
 	| segment numberOfSegments |
 	laserIsActive := boardGrid laserIsActive.
-	laserIsActive ifFalse: [ ^self ].
+	laserIsActive ifFalse: [ ^ self ].
 	numberOfSegments := boardGrid laserBeamPath size.
 	laserBeamPathElements := OrderedCollection new.
 	"	segment := boardGrid laserBeamPath at: 1."
@@ -12,6 +12,7 @@ fireLaser1
 	1 to: numberOfSegments do: [ :index | 
 		| cellLocation cellElementIndex cellElement |
 		segment := boardGrid laserBeamPath at: index.
+		"laserBeamPathElements add: segment."
 		cellLocation := segment gridCell gridLocation.
 		"cellElement := boardCellElements at: cellLocation."
 		"cellElementIndex := cellElement boardCellElements:

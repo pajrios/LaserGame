@@ -1,11 +1,6 @@
-drawing
-drawOnSpartaCanvas: aCanvas
+as yet unclassified
+drawCellElement: aCellEntrySide at: aCanvas
 
-	| cellEntrySide |
-	super drawOnSpartaCanvas: aCanvas.
-	"cellBoardGrid laserIsActive ifFalse: [ ^ self ].
-	cellEntrySide := self cellElementEntrySide.
-	self drawCellElement: aCanvas at: cellEntrySide"
 	cellBoardGrid laserIsActive ifFalse: [ ^ self ].
 	self cellElementEntrySide = #east ifTrue: [ 
 		self drawLBHorizontalOn: aCanvas ].

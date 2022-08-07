@@ -2,11 +2,10 @@ initialization
 initialize
 
 	super initialize.
-	self containerName: #LaserGameElement.
-	self gridBoardElement: GridElement new.
-
+	self containerName: #LaserGame.
 	self halt.
-	self createControlPanelElement .
+	self gridBoardElement: (GridElement new laserGameElement: self).
+	self createControlPanelElement.
 	self createGameContainer.
 	self size.
-	self createShowGameSpace
+	self createShowGameSpace1

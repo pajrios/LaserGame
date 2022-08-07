@@ -1,5 +1,5 @@
 drawing
-drawTargetCircleOn: aCanvas
+drawTargetInactiveCircleOn: aCanvas
 
 	self targetCircle: aCanvas.
 

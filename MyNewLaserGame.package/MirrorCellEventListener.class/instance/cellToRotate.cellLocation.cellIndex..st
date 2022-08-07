@@ -9,18 +9,16 @@ cellToRotate: aMirrorCell cellLocation: aCellLocation cellIndex: aCellIndex
 		ifFalse: [ 
 			cellToPut := MirrorCellLeft new.
 			cellElementToPut := gridBoardElement
-				                    newMirrorCellLeftElementAt:
-				                    aCellLocation
+				                    newMirrorCellLeftElementAt: aCellLocation
 				                    at: aCellIndex ]
 		ifTrue: [ 
 			cellToPut := MirrorCellRight new.
 			cellElementToPut := gridBoardElement
-				                    newMirrorCellRightElementAt:
-				                    aCellLocation
+				                    newMirrorCellRightElementAt: aCellLocation
 				                    at: aCellIndex ].
 
 	self
-		changeCell: cellToPut
+		changeCell1: cellToPut
 		changeElement: cellElementToPut
 		gridLocation: aCellLocation
 		gridIndex: aCellIndex.

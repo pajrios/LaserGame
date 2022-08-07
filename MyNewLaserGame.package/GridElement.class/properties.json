@@ -10,7 +10,8 @@
 		"availableGridCells",
 		"boardCellElements",
 		"laserBeamPathElements",
-		"laserIsActive"
+		"laserIsActive",
+		"laserGameElement"
 	],
 	"name" : "GridElement",
 	"type" : "normal"
