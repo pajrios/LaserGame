@@ -1,3 +1,4 @@
 drawing
 drawOnSpartaCanvas: aCanvas
-	self drawChildrenOnSpartaCanvas: aCanvas
+
+	"self drawChildrenOnSpartaCanvas: aCanvas"

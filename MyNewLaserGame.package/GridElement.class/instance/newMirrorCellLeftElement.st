@@ -1,4 +1,5 @@
 instance creation
 newMirrorCellLeftElement
 
-	^ MirrorCellLeftElement new
+	"^ MirrorCellLeftElement  new"
+	^MyMirrorLeftElement new

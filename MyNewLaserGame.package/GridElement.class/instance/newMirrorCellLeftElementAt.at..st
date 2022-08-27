@@ -1,9 +1,9 @@
 instance creation
-newMirrorCellLeftElementAt: aGridPosition at: aGridIndex
+newMirrorCellLeftElementAt: aGridLocation at: aGridIndex
 
-	^ self newMirrorCellLeftElement
+	^ self newMirrorCellLeftElement1
 		  addEventHandler: self newMirrorCellEventListener;
-		  cellElementLocation: aGridPosition;
+		  cellElementLocation: aGridLocation;
 		  cellElementIndex: aGridIndex;
-		laserIsActive: boardGrid laserIsActive;
+		  laserIsActive: boardGrid laserIsActive;
 		  cellBoardGrid: boardGrid

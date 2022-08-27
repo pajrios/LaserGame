@@ -1,4 +1,6 @@
 event
 newMirrorCellEventListener
 
-	^ MirrorCellEventListener new gridBoardGame: boardGrid; gridBoardElement: self
+	^ MirrorCellEventListener new
+		  gridBoardGame: boardGrid;
+		  gridBoardElement: self

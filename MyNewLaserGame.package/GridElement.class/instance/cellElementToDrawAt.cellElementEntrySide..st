@@ -1,0 +1,3 @@
+accessing
+cellElementToDrawAt: aCellIndex cellElementEntrySide: aCellEntrySide
+

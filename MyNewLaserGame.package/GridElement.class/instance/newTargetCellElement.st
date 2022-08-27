@@ -1,4 +1,6 @@
 instance creation
 newTargetCellElement
 
-	^ TargetCellElement new
+	"^ TargetCellElement new"
+	
+	^MyTargetCellElement new

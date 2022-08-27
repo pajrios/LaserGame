@@ -1,21 +1,16 @@
 action
-fireLaser1
+gridElementLaserBeamPath
 
 	| segment numberOfSegments |
 	laserIsActive := boardGrid laserIsActive.
 	laserIsActive ifFalse: [ ^ self ].
-	"self clearCellElementEntrySide."
 	numberOfSegments := boardGrid laserBeamPath size.
 	laserBeamPathElements := OrderedCollection new: numberOfSegments.
-
-	"Determine which cell element has to change to be able to draw the laser beam through it."
 	1 to: numberOfSegments do: [ :lbpIndex | 
 		| cellLocation cellElementIndex cellEntrySide |
 		segment := boardGrid laserBeamPath at: lbpIndex.
 		cellEntrySide := segment gridCellEntrySide.
 		cellLocation := segment gridCell gridLocation.
 		cellElementIndex := self cellElementIndexFinding: cellLocation.
-		self
-			cellElementToAddAt: cellElementIndex
-			cellElementEntrySide: cellEntrySide
-			cellElementLocation: cellLocation ]
+		laserBeamPathElements add: (boardCellElements at: cellElementIndex).
+		self showLaserPathCells: lbpIndex ]

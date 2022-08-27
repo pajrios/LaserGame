@@ -9,4 +9,4 @@ calculateLaserBeamPath
 	[ 
 	self laserBeamPath addLast: segment.
 	next := segment nextLaserPathSegmentIn: self.
-	next isNil ] whileFalse: [ segment := next ]
+	next isNil ] whileFalse: [ segment := next ]. self halt

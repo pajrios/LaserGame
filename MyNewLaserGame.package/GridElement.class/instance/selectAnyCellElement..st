@@ -1,4 +1,4 @@
 accessing
-selectAnyCellElement: anIndex
+selectAnyCellElement: aCellIndex
 
-	^self boardCellElements at: anIndex
+	^ boardCellElements at: aCellIndex

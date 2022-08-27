@@ -1,9 +1,9 @@
 as yet unclassified
-randomizedGridOfExtent: aPoint
+gridElementForTest
 
 	| model grid |
 	model := self basicNew.
-	grid := GridFactory randomizedGridOfExtent: aPoint.
+	grid := GridFactory demoGridForTestElementsSmall.
 	model initialize.
 	model initializeForGrid: grid.
 	^ model

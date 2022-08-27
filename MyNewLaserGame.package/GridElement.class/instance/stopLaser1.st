@@ -1,23 +1,21 @@
 action
 stopLaser1
 
-	| gameElementSpace gameElementToAdd |
+	| gameElementSpace segment numberOfSegments |
 	laserIsActive := boardGrid laserIsActive.
-	laserIsActive ifTrue: [ ^ self ].
-	laserBeamPathElements removeAll.
-	"boardCellElements removeAll."
+	"laserIsActive ifTrue: [ ^ self ]."
+	"self clearCellElementEntrySide."
+	numberOfSegments := boardGrid laserBeamPath size.
+	self halt.
+	1 to: numberOfSegments do: [ :index | 
+		| cellLocation cellElementIndex |
+		segment := boardGrid laserBeamPath at: index.
+		cellLocation := segment gridCell gridLocation.
+		cellElementIndex := self cellElementIndexFinding1: cellLocation.
+		self removeLaserBeamAt1: cellElementIndex ].
+
 	gameElementSpace := laserGameElement space.
 	gameElementSpace removeChild: laserGameElement gridBoardElement.
 
-	gameElementSpace addChild: self.
-
-	"	self initializeGridCellElements"
-	"
-	1 to: numberOfSegments do: [ :index | 
-		| cellToChange cellToChangeClass cellIndex cellToPut |
-		cellToChange := laserBeamPathElements at: index.
-		cellToChangeClass := cellToChange class elementClassSymbol.
-		cellIndex := cellToChange cellElementIndex.
-		cellToPut := CellElement elementClassSymbol: cellToChangeClass.
-		self removeChildAt: cellIndex.
-		self addChild: cellToPut at: cellIndex ]"
+	gameElementSpace addChild: self
+	"laserBeamPathElements removeAll"
