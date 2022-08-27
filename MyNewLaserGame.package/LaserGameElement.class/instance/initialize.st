@@ -4,7 +4,9 @@ initialize
 	super initialize.
 	self containerName: #LaserGame.
 	self halt.
-	self gridBoardElement: (GridElement new laserGameElement: self).
+	self createGridBoardElement.
+	"self gridBoardElement: (GridElement randomizedGridOfExtent: 3 @ 3).
+	gridBoardElement laserGameElement: self."
 	self createControlPanelElement.
 	self createGameContainer.
 	self size.
