@@ -1,0 +1,17 @@
+{
+	"classtraitcomposition" : "TBrEnableable classTrait + TBrLayoutAlignable classTrait + TBrLayoutResizable classTrait + TBrSizeAdjustable classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"labelModel",
+		"iconModel",
+		"interactiveModel"
+	],
+	"name" : "MyBrButton",
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"traitcomposition" : "TBrEnableable + TBrLayoutAlignable + TBrLayoutResizable + TBrSizeAdjustable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MyNewLaserGame-Examples-Buttons"
+}

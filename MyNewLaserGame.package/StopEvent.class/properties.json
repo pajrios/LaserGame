@@ -1,0 +1,19 @@
+{
+	"classtraitcomposition" : "TBlEventTarget classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"laserIsActive",
+		"gridBoardGame",
+		"gridBoardElement",
+		"controlPanelElement",
+		"fireButton"
+	],
+	"name" : "StopEvent",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TBlEventTarget",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MyNewLaserGame-Graphics-Buttons"
+}
