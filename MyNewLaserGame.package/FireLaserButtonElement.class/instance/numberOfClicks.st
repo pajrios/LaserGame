@@ -1,0 +1,4 @@
+accessing
+numberOfClicks
+
+	^ numberOfClicks

@@ -1,3 +1,4 @@
 instance creation
 buttonElementColor
-	^Color blue lighter lighter
+
+	^ Color transparent

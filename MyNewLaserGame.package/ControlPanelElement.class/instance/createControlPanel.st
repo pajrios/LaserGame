@@ -7,5 +7,5 @@ createControlPanel
 		  background: Color lightGray lighter lighter;
 		  border: (BlBorder paint: Color black width: 2);
 		  effect: BlGaussianShadowEffect new;
-		  containerName: #ControlPanel;
-forceLayout
+		  containerName: #controlPanel;
+		  forceLayout

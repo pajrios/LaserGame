@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "BasicButtonElement1",
-	"category" : "MyNewLaserGame-Examples - Buttons",
+	"super" : "GameButtonElement",
+	"category" : "MyNewLaserGame-Graphics-Buttons",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"numberOfClicks"
+	],
 	"name" : "FireLaserButtonElement1",
 	"type" : "normal"
 }

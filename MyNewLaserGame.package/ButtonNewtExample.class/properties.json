@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BrButton",
+	"category" : "MyNewLaserGame-Examples - Buttons",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ButtonNewtExample",
+	"type" : "normal"
+}

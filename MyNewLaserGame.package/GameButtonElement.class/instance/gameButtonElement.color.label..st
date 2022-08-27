@@ -13,7 +13,7 @@ gameButtonElement: aButtonIcon color: aButtonColor label: aButtonLabel
 			  + (BrShadowAptitude new
 					   color: Color darkGray;
 					   offset: 4);
-		  "look: BrGlamorousButtonWithIconAndLabelLook;"label: aButtonLabel;
+		 label: aButtonLabel;
 		  icon: buttonIcon;
 		  background: (BlPaintBackground new paint: aButtonColor);
 		  layout: BlLinearLayout vertical alignCenter;
@@ -21,4 +21,4 @@ gameButtonElement: aButtonIcon color: aButtonColor label: aButtonLabel
 			  c horizontal fitContent.
 			  c vertical fitContent ];
 		  padding: (BlInsets all: 10);
-		  "- BrGlamorousButtonWithLabelTooltipLook"fitContent
+		 fitContent
