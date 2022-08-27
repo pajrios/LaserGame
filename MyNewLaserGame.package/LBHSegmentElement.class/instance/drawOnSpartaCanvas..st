@@ -1,4 +1,0 @@
-initialization
-drawOnSpartaCanvas: aCanvas
-
-	
