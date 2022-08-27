@@ -1,0 +1,4 @@
+accessing
+cellEntrySideControl
+
+	self subclassResponsibility 

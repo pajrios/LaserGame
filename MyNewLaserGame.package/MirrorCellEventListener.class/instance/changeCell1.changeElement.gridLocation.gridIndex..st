@@ -14,7 +14,7 @@ changeCell1: aCellToPut changeElement: aCellElementToPut gridLocation: aGridLoca
 	gridBoardGame mirrorMoves: gridBoardGame mirrorMoves + 1.
 	self halt.
 	gridBoardGame laserIsActive ifTrue: [ 
-		gridBoardGame stopLaser.
 		gridBoardElement stopLaser1.
+		gridBoardGame stopLaser.
 		gridBoardGame fireLaser.
-		gridBoardElement fireLaser1 ]
+		gridBoardElement fireLaser3 ]

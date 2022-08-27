@@ -1,4 +1,4 @@
 target cross down
 targetHLineOrigin
-	^ CellElementExample cellLaserGameOffset
-		@ (CellElementExample cellLaserGameHeight / 2)
+	^ MyCellElement cellOffset
+		@ (MyCellElement cellHeight / 2)

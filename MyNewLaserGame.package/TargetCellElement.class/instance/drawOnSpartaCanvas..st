@@ -5,11 +5,11 @@ drawOnSpartaCanvas: aCanvas
 
 	super drawOnSpartaCanvas: aCanvas.
 	self drawOuterTargetCrossOn: aCanvas.
+	self drawTargetInactiveCircleOn: aCanvas.
 	cellBoardGrid laserIsActive
 		ifTrue: [ 
-			cellElementEntrySide = #east | (cellElementEntrySide = #south) 
+			cellElementEntrySide = #west | (cellElementEntrySide = #south) 
 				ifTrue: [ self drawTargetActiveCircleOn: aCanvas ].
-			cellElementEntrySide = #north | (cellElementEntrySide = #west) 
-				ifTrue: [ self drawTargetInactiveCircleOn: aCanvas ] ]
-		ifFalse: [ self drawTargetInactiveCircleOn: aCanvas ].
+			cellElementEntrySide = #north | (cellElementEntrySide = #east) 
+				ifTrue: [ self drawTargetInactiveCircleOn: aCanvas ] ].
 	self drawInnerTargetCrossOn: aCanvas

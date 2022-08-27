@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "pajrios 8/25/2022 17:19",
+	"super" : "MyCellElement",
+	"category" : "MyNewLaserGame-Examples - CellElement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MyMirrorRightElement",
+	"type" : "normal"
+}

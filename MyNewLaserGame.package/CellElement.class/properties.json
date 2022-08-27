@@ -12,7 +12,9 @@
 		"cellElementLocation",
 		"laserIsActive",
 		"cellElementEntrySide",
-		"cellBoardGrid"
+		"cellBoardGrid",
+		"cellEntrySideControl",
+		"cellNumberOfTimesInLbPath"
 	],
 	"name" : "CellElement",
 	"type" : "normal"

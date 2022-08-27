@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CellElement",
+	"category" : "MyNewLaserGame-Graphics-Cells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BlankCellElement1",
+	"type" : "normal"
+}

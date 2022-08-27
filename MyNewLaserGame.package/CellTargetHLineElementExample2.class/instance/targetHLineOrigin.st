@@ -1,3 +1,3 @@
 as yet unclassified
 targetHLineOrigin
-	^CellElementExample cellLaserGameOffset @ (CellElementExample cellLaserGameHeight / 2 )
+	^MyCellElement cellOffset @ (MyCellElement cellHeight / 2 )

@@ -1,4 +1,4 @@
 as yet unclassified
 targetHLineEnd
-	^ (CellElementExample cellLaserGameWidth - CellElementExample cellLaserGameOffset)
-		@ (CellElementExample cellLaserGameHeight / 2)
+	^ (MyCellElement cellWidth - MyCellElement cellOffset)
+		@ (MyCellElement cellHeight / 2)

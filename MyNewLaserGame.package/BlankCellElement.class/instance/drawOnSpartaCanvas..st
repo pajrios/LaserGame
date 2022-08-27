@@ -1,17 +1,14 @@
 drawing
 drawOnSpartaCanvas: aCanvas
 
-	| cellEntrySide |
 	super drawOnSpartaCanvas: aCanvas.
-	"cellBoardGrid laserIsActive ifFalse: [ ^ self ].
-	cellEntrySide := self cellElementEntrySide.
-	self drawCellElement: aCanvas at: cellEntrySide"
+
 	cellBoardGrid laserIsActive ifFalse: [ ^ self ].
-	self cellElementEntrySide = #east ifTrue: [ 
-		self drawLBHorizontalOn: aCanvas ].
-	self cellElementEntrySide = #west ifTrue: [ 
-		self drawLBHorizontalOn: aCanvas ].
-	self cellElementEntrySide = #north ifTrue: [ 
-		self drawLBVerticalOn: aCanvas ].
-	self cellElementEntrySide = #south ifTrue: [ 
-		self drawLBVerticalOn: aCanvas ]
+	cellNumberOfTimesInLbPath = 1 ifTrue: [ 
+		cellEntrySideControl addFirst: cellElementEntrySide.
+
+		self drawCellElementOn: aCanvas at: cellElementEntrySide ].
+	cellNumberOfTimesInLbPath > 1 ifTrue: [ 
+		cellEntrySideControl addFirst: cellElementEntrySide.
+		self drawCellElementOn: aCanvas at: (cellEntrySideControl at: 1).
+		self drawCellElementOn: aCanvas at: (cellEntrySideControl at: 2) ]

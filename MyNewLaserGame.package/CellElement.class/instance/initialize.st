@@ -2,6 +2,9 @@ initialization
 initialize
 
 	super initialize.
+	cellEntrySideControl := OrderedCollection new.
+	cellNumberOfTimesInLbPath := 0.
+	self layout: BlFrameLayout new
 	"self size: self cellElementSize @ self cellElementSize."
 	"self cell: BlankCell new"
 	"self contextualLeftMenu"

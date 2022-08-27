@@ -1,4 +1,4 @@
 initialization
 targetVLineOrigin
-	^ CellElementExample cellLaserGameWidth / 2 @ CellElementExample cellLaserGameOffset
+	^ MyCellElement cellWidth / 2 @ MyCellElement cellOffset
 	

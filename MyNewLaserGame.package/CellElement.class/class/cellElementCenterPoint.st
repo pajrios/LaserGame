@@ -1,4 +1,4 @@
 geometry
 cellElementCenterPoint
 
-	^self geometryBounds center
+	^ self cellElementHalfSize @ self cellElementHalfSize 

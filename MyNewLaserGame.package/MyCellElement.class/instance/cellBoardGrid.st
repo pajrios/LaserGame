@@ -1,0 +1,4 @@
+accessing
+cellBoardGrid
+
+	^ cellBoardGrid

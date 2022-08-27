@@ -1,3 +1,4 @@
 accessing
-cellSegments: aCellSegmentsDictionary
-	cellSegments := aCellSegmentsDictionary 
+cellSegments: aCellSegment
+
+	cellSegments := aCellSegment

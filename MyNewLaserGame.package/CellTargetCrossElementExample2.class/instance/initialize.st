@@ -3,8 +3,8 @@ initialize
 	super initialize.
 	self
 		size:
-			CellElementExample cellLaserGameWidth
-				@ CellElementExample cellLaserGameHeight.
+			MyCellElement cellWidth
+				@ MyCellElement cellHeight.
 	self layout: BlLinearLayout vertical.
 	self background: Color transparent.
 	self border: (BlBorder paint: Color black width: 2).

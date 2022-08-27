@@ -1,6 +1,6 @@
 target cross down
 targetVLineEnd
-	^ (CellElementExample cellLaserGameWidth / 2)
+	^ (MyCellElement cellWidth / 2)
 		@
-			(CellElementExample cellLaserGameHeight
-				- CellElementExample cellLaserGameOffset)
+			(MyCellElement cellHeight
+				- MyCellElement cellOffset)
