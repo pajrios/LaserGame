@@ -1,4 +1,0 @@
-accessing
-clickedCell
-
-	^ clickedCell

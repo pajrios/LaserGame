@@ -18,4 +18,4 @@ stopLaser1
 	gameElementSpace removeChild: laserGameElement gridBoardElement.
 
 	gameElementSpace addChild: self
-	"laserBeamPathElements removeAll"
+	

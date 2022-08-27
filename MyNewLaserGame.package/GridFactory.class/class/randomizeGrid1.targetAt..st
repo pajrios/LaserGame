@@ -8,4 +8,4 @@ randomizeGrid1: aGrid targetAt: aPoint
 	howMany timesRepeat: [ 
 		loc := self unusedRandomLocationIn: emptyList forGrid: aGrid.
 		aGrid at: loc put: (self randomizedMirrorCell1: aGrid) ].
-	aGrid blankCellCount.
+	aGrid blankCellsCount

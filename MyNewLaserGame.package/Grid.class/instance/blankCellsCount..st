@@ -1,4 +1,4 @@
 accessing
-blankCellsCount: anObject
+blankCellsCount: anInteger
 
-	blankCellsCount := anObject
+	blankCellsCount := anInteger

@@ -1,11 +1,6 @@
 mouse handlers
 clickEvent: anEvent
 
-	"gridBoardGame laserIsActive ifTrue: [ 
-		1 to: gridBoardElement laserBeamPathElements size do: [ :index | 
-			(gridBoardElement laserBeamPathElements at: index) 
-				cellNumberOfTimesInLbPath: 0 ] ]."
-
 	| cellMirror newEvent |
 	cellMirror := anEvent target.
 	cellMirror class = BlLineElement ifTrue: [ 
@@ -25,10 +20,7 @@ clickEvent: anEvent
 				at: cellMirror cellElementLocation
 				put: MirrorCellLeft new ].
 	newEvent := cellMirror parent newMirrorCellEventListener.
-	self halt.
 	gridBoardGame laserIsActive ifTrue: [ 
-		
-
 		gridBoardElement stopLaser1.
 		gridBoardGame stopLaser.
 		gridBoardGame fireLaser.
