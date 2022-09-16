@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"controlPanelElement",
 		"buttonElements",
 		"ledElements",
 		"gridBoardGame",

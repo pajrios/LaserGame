@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "BrWidgetContainer",
-	"category" : "MyNewLaserGame-Examples - ControlPanelElement",
+	"category" : "MyNewLaserGame-Examples - ButtonPanel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

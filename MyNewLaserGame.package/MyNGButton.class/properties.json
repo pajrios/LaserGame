@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MyMainButton",
+	"category" : "MyNewLaserGame-Examples - Buttons",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MyNGButton",
+	"type" : "normal"
+}

@@ -9,4 +9,5 @@ initialize
 		color: self buttonElementColor
 		label: self buttonElementLabel;
 		containerName: #laserButton.
+	self size: self buttonElementSize.
 	self buttonElementAction

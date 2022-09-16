@@ -13,12 +13,12 @@ gameButtonElement: aButtonIcon color: aButtonColor label: aButtonLabel
 			  + (BrShadowAptitude new
 					   color: Color darkGray;
 					   offset: 4);
-		 label: aButtonLabel;
+		  label: aButtonLabel;
 		  icon: buttonIcon;
 		  background: (BlPaintBackground new paint: aButtonColor);
 		  layout: BlLinearLayout vertical alignCenter;
 		  constraintsDo: [ :c | 
-			  c horizontal fitContent.
-			  c vertical fitContent ];
+			  c horizontal exact: 70.
+			  c vertical exact: 70 ];
 		  padding: (BlInsets all: 10);
-		 fitContent
+		fitContent

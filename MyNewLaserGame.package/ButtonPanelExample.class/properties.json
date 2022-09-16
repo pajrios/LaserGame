@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "GlamorousAuthor 3/10/2021 18:22",
+	"super" : "Object",
+	"category" : "MyNewLaserGame-Examples - ButtonPanel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"controlPanelElement"
+	],
+	"name" : "ButtonPanelExample",
+	"type" : "normal"
+}

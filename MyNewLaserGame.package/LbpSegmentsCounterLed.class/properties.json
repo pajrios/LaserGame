@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MyNewLaserGame-Graphic-Leds",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"controlPanelElement",
+		"counterElement"
+	],
+	"name" : "LbpSegmentsCounterLed",
+	"type" : "normal"
+}
