@@ -2,6 +2,7 @@ geometry
 containerSize
 
 	| containerWidth containerHeight |
+
 	containerWidth := self gridBoardElementWidth
 	                  + controlPanelElement width
 	                  + (3 * self offsetSpace).

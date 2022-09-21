@@ -1,8 +1,9 @@
 as yet unclassified
 buttonSizeAndLayout
 
-	self 
-	layout: BlLinearLayout vertical alignCenter;
-		hExact: 90;
-		vFitContent;
-		padding: (BlInsets all: 10)
+	self	halt.
+		self
+		layout: BlLinearLayout vertical alignCenter;
+		hExact: 100;
+		vExact: 100;
+		padding: (BlInsets all: 20)

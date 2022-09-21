@@ -11,4 +11,4 @@ initializeForGrid: aGrid
 		aLayoutConstraints horizontal fitContent.
 		aLayoutConstraints vertical fitContent ].
 	self effect: BlGaussianShadowEffect new.
-	self containerName: #GameGrid
+	self id: #gameGrid

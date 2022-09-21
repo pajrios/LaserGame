@@ -6,13 +6,13 @@ createGameContainer
 	self
 		background: BrGlamorousColors backdropColor;
 		border: (BlBorder paint: Color black width: 5);
-		containerName: #GameContainer;
-		size: self containerSize;
+		containerName: #gameContainer;
+		size: 850 @ 550;
 		padding: (BlInsets
 				 top: self offsetSpace
 				 right: self offsetSpace
 				 bottom: self offsetSpace
-				 left: self offsetSpace).
+				 left: self offsetSpace). "self containerSize"
 	self forceLayout.
 	self addChild:
 		(gridBoardElement relocate: self padding right @ self padding top).

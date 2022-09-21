@@ -3,10 +3,10 @@ createButtonPanel1
 
 	self
 		size: 150 @ 300;
-		layout: (BlGridLayout vertical
+		layout: (BlGridLayout horizontal
 				 cellSpacing: 20;
 				 columnCount: 1);
-		background: (BlBackground paint: (Color cyan alpha: 0.3));
+		background: (BlBackground paint: MDLColor amber);
 		border: (BlBorder paint: Color black width: 2);
 		geometry: (BlRoundedRectangleGeometry cornerRadius: 5);
 		id: #buttonPanel;
@@ -16,7 +16,12 @@ createButtonPanel1
 				MyQuitButton new.
 				MyResetButton new.
 				MyUndoButton new };
-		padding: (BlInsets left: 11 right: 11)
+		padding: (BlInsets
+				 top: 0
+				 right: 10
+				 bottom: 0
+				 left: 10);
+		effect: BlGaussianShadowEffect new
 
 
 

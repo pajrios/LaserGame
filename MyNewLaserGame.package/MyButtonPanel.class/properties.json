@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"laserGameElement",
+		"gridBoardGame",
+		"gridBoardElement"
+	],
 	"name" : "MyButtonPanel",
 	"type" : "normal"
 }

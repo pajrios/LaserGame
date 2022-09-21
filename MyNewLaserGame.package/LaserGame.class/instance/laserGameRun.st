@@ -4,8 +4,10 @@ laserGameRun
 	"myGame := LaserGame new."
 
 	myGridBoard := LaserGameElement new.
-	"space := BlSpace new.
-	space extent: 500 @ 500.
+	space := BlSpace new title: 'Laser Game' .
+	space extent: myGridBoard extent.
 	space root addChild: myGridBoard.
-	space show"
+	
+	space show
+
 	"myGridBoard laserGame: myGame"

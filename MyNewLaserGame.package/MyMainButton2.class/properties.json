@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BrGlamorousButtonWithLabelAndIconAptitude",
+	"category" : "MyNewLaserGame-Examples - Buttons",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"laserIsActive",
+		"label"
+	],
+	"name" : "MyMainButton2",
+	"type" : "normal"
+}

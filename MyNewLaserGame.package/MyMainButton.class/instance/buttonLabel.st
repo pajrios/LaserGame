@@ -1,4 +1,4 @@
 accessing
 buttonLabel
 
-	^ ''
+	^ 'Basic Button'

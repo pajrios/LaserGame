@@ -15,4 +15,5 @@ initialize
 
 	self labelLook.
 	self label: self buttonLabel.
-	self icon: self buttonIcon
+	self icon: self buttonIcon.
+	self border: 10
