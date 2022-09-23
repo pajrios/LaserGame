@@ -3,10 +3,10 @@ containerSize
 
 	| containerWidth containerHeight |
 
-	containerWidth := self gridBoardElementWidth
-	                  + controlPanelElement width
+	containerWidth := gridBoardElement boardGridWidth
+	                  + controlPanelElement buttonPanelWidth
 	                  + (3 * self offsetSpace).
-	containerHeight := controlPanelElement height max:
-		                   self gridBoardElementHeight.
+	containerHeight := controlPanelElement buttonPanelHeight max:
+		                   gridBoardElement boardGridHeight.
 	containerHeight := containerHeight + (2 * self offsetSpace).
 	^ containerWidth @ containerHeight

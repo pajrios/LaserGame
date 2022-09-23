@@ -2,7 +2,7 @@ as yet unclassified
 createButtonPanel1
 
 	self
-		size: 150 @ 300;
+		size: self buttonPanelWidth @ self buttonPanelHeight;
 		layout: (BlGridLayout horizontal
 				 cellSpacing: 20;
 				 columnCount: 1);

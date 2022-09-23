@@ -1,4 +1,0 @@
-geometry
-gridBoardElementHeight
-
-	^ gridBoardElement boardGridHeight

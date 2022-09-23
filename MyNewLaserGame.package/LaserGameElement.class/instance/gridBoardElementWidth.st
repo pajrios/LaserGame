@@ -1,4 +1,0 @@
-geometry
-gridBoardElementWidth
-
-	^gridBoardElement boardGridWidth.
