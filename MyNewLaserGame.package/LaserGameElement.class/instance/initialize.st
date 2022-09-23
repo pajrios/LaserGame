@@ -7,8 +7,8 @@ initialize
 	self createGridBoardElement.
 	"self gridBoardElement: (GridElement randomizedGridOfExtent: 3 @ 3).
 	gridBoardElement laserGameElement: self."
-	self createControlPanelElement.
-	"self createButtonPanel."
+	"self createControlPanelElement."
+	self createButtonPanel.
 	self createGameContainer.
 	self size
 	"self createShowGameSpace1"
