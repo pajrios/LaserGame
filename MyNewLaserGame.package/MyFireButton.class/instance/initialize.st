@@ -3,4 +3,5 @@ initialize
 
 	super initialize.
 	self createFireButton.
-	self action: [  ]
+	laserIsActive := false.
+	self action: [ self buttonElementAction ]

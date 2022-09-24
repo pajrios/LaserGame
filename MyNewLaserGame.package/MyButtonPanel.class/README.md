@@ -1,0 +1,1 @@
+It is the container for the game's control buttons.

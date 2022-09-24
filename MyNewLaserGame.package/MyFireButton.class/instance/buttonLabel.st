@@ -2,7 +2,7 @@ accessing
 buttonLabel
 
 	
-	laserIsActive = #inactive
-		ifFalse: [ ^ 'Stop Laser' ]
-		ifTrue: [ ^ 'Fire Laser' ].
+	laserIsActive 
+		ifFalse: [ ^ 'Fire Laser' ]
+		ifTrue: [ ^ 'Stop Laser' ].
 	

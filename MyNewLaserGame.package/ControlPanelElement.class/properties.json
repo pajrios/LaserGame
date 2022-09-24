@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pajrios 6/21/2022 18:02",
 	"super" : "BlElement",
-	"category" : "MyNewLaserGame-Graphics-ControlPanel",
+	"category" : "MyNewLaserGame-Graphics-Panels",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

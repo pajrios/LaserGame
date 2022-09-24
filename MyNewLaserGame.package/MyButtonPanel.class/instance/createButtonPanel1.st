@@ -11,11 +11,11 @@ createButtonPanel1
 		geometry: (BlRoundedRectangleGeometry cornerRadius: 5);
 		id: #buttonPanel;
 		addChildren: { 
-				MyFireButton new.
-				MyNGButton new.
-				MyQuitButton new.
-				MyResetButton new.
-				MyUndoButton new };
+				MyFireButton new controlPanelElement: self.
+				MyNGButton new controlPanelElement: self.
+				MyQuitButton new controlPanelElement: self.
+				MyResetButton new controlPanelElement: self.
+				MyUndoButton new controlPanelElement: self};
 		padding: (BlInsets
 				 top: 0
 				 right: 10

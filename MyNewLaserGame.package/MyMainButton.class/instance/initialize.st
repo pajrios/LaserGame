@@ -2,7 +2,7 @@ initialization
 initialize
 
 	super initialize.
-	self laserIsActive: #inactive.
+	self laserIsActive: false.
 	self
 		aptitude: (BrGlamorousButtonExteriorAptitude new
 				 backgroundPaint: self buttonColor;
@@ -18,4 +18,5 @@ initialize
 		layout: BlLinearLayout vertical alignCenter;
 		hExact: 90;
 		vFitContent;
-		padding: (BlInsets all: 10)
+		padding: (BlInsets all: 10);
+		action: self buttonElementAction

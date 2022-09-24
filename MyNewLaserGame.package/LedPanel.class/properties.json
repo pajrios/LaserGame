@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ControlPanelElement",
-	"category" : "MyNewLaserGame-Graphics-ControlPanel",
+	"category" : "MyNewLaserGame-Graphics-Panels",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
