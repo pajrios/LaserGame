@@ -21,7 +21,7 @@ clickEvent: anEvent
 				put: MirrorCellLeft new ].
 	newEvent := cellMirror parent newMirrorCellEventListener.
 	gridBoardGame laserIsActive ifTrue: [ 
-		gridBoardElement stopLaser1.
+		gridBoardElement "stopLaser1" stopLaser.
 		gridBoardGame stopLaser.
 		gridBoardGame fireLaser.
 		gridBoardElement fireLaser3 ]

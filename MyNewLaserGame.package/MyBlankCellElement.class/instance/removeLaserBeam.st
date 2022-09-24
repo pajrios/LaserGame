@@ -1,0 +1,4 @@
+removing
+removeLaserBeam 
+
+	self removeChildren

@@ -13,7 +13,7 @@ changeCell: aCellToPut changeElement: aCellElementToPut gridLocation: aGridLocat
 	aCellElementToPut cellElementIndex: anIndex.
 	"aCellElementToPut cellEntrySideControl removeAll."
 	gridBoardGame mirrorMoves:
-		gridBoardGame mirrorMoves + 1 gridBoardElement stopLaser1.
-	gridBoardGame stopLaser.
+		gridBoardGame mirrorMoves + 1 gridBoardElement stopLaser "stopLaser1" .
+	gridBoardGame "stopLaser" stopLaser.
 	gridBoardGame fireLaser.
-	gridBoardElement fireLaser1
+	gridBoardElement "fireLaser1" fireLaser3

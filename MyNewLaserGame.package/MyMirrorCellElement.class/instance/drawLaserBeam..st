@@ -1,6 +1,6 @@
 drawing
 drawLaserBeam: anEntrySide
-self halt.
+
 	mirrorLine = #left
 		ifTrue: [ 
 			anEntrySide = #south | (anEntrySide = #west)

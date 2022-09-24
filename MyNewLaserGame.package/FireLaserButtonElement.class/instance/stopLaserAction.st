@@ -9,7 +9,7 @@ stopLaserAction
 			  color: self buttonElementColor"
 
 
-		  controlPanelElement gridBoardElement stopLaser1.
+		  controlPanelElement gridBoardElement stopLaser.
 		  controlPanelElement gridBoardGame stopLaser.
 		  self laserIsActive:
 			  controlPanelElement gridBoardGame laserIsActive.
