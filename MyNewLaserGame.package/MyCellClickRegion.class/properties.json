@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "pajrios 9/25/2022 17:04",
+	"super" : "Object",
+	"category" : "MyNewLaserGame-Graphics - Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MyCellClickRegion",
+	"type" : "normal"
+}

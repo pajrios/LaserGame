@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MyCellClickRegion",
+	"category" : "MyNewLaserGame-Graphics - Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MyCellClickRegionInside",
+	"type" : "normal"
+}

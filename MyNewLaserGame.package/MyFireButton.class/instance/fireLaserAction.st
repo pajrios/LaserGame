@@ -1,6 +1,6 @@
 action
 fireLaserAction
-
+	
 	^ self action: [ :aButtonElement :aButtonModel | "defaultBackground"
 		  aButtonModel model: #clicked.
 		  self inform: 'Laser Fired'.

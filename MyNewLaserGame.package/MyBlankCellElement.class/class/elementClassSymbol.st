@@ -1,4 +1,4 @@
 accessing
 elementClassSymbol
 
-	^ #blankCellLeftElement
+	^ #blankCellElement
