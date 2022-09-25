@@ -1,4 +1,4 @@
 geometry
 insideRegionExtent
 
-	^ 14 @ 14
+	^ 10 @ 10

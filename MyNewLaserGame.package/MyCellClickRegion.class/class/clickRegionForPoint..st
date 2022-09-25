@@ -1,4 +1,5 @@
 as yet unclassified
 clickRegionForPoint: aPoint
 
-	^nil
+	^ self sortedSubclasses detect: [ :cls | 
+		  cls regionRectangle containsPoint: aPoint ]
