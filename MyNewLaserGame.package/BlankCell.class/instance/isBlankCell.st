@@ -1,4 +1,4 @@
 testing
-isEmptyCell 
+isBlankCell 
 
 	^true
