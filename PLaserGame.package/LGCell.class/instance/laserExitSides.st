@@ -1,0 +1,3 @@
+accessing
+laserExitSides
+	^ laserExitSides

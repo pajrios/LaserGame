@@ -1,0 +1,4 @@
+initialize
+initializeLaserExitSides
+	self subclassResponsibility 
+	

@@ -1,0 +1,4 @@
+accessing
+cellCount
+
+	^ cellCount

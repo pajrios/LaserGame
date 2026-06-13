@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "LGCell",
+	"category" : "PLaserGame-Model-Cells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"leansLeft",
+		"clicked",
+		"announcer"
+	],
+	"name" : "LGMirrorCell",
+	"type" : "normal"
+}

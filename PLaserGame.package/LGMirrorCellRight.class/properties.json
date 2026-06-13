@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LGMirrorCell",
+	"category" : "PLaserGame-Model-Cells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LGMirrorCellRight",
+	"type" : "normal"
+}

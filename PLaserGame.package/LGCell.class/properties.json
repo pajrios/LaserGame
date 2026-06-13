@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PLaserGame-Model-Cells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cellCount",
+		"cellSegments",
+		"activeSegments",
+		"laserExitSides",
+		"grid",
+		"gridLocation",
+		"gridDirection"
+	],
+	"name" : "LGCell",
+	"type" : "normal"
+}
