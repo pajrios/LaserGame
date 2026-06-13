@@ -1,3 +1,3 @@
 accessing
-leansLeft: anObject 
-	leansLeft := anObject
+leansLeft: aBoolean
+	leansLeft := aBoolean
