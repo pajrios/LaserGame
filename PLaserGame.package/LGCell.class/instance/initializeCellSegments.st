@@ -1,7 +1,8 @@
 initialize-release
 initializeCellSegments
-self cellSegments: OrderedCollection new.
-self cellSegments addLast: CellSegmentNorth cellSegmentSymbol  .
-self cellSegments addLast: CellSegmentEast cellSegmentSymbol.
-self cellSegments addLast: CellSegmentSouth cellSegmentSymbol.
-self cellSegments addLast: CellSegmentWest cellSegmentSymbol.
+	self cellSegments: (OrderedCollection ofSize: 4).
+	cellSegments 
+			at: 1 put: LGCellSegmentNorth segmentSymbol;
+			at: 2 put: LGCellSegmentEast segmentSymbol;
+			at: 3 put: LGCellSegmentSouth segmentSymbol;
+			at: 4 put: LGCellSegmentWest segmentSymbol.

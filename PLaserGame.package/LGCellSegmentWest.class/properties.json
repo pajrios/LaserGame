@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LGCellSegment",
+	"category" : "PLaserGame-Model-Cells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LGCellSegmentWest",
+	"type" : "normal"
+}

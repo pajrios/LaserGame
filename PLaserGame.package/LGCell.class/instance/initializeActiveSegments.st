@@ -1,7 +1,8 @@
 initialize-release
 initializeActiveSegments
-self activeSegments: Dictionary new.
-self activeSegments at: (cellSegments at: 1) put: false.
-self activeSegments at: #east put: false.
-self activeSegments at: #south put: false.
-self activeSegments at: #west put: false.
+		self activeSegments: Dictionary new.
+		activeSegments 
+				at: (cellSegments at: 1) put: false;
+				at: (cellSegments at: 2) put: false;
+				at: (cellSegments at: 3) put: false;
+				at: (cellSegments at: 4) put: false.

@@ -1,3 +1,3 @@
 direction
 gridDirectionSymbol
-	^CellSegmentWest cellSegmentSymbol 
+	^CellSegmentWest segmentSymbol 
