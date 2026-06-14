@@ -1,1 +1,1 @@
-self packageOrganizer ensurePackage: #PLaserGame withTags: #(#'Model-Cells')!
+self packageOrganizer ensurePackage: #PLaserGame withTags: #(#'Cell-Examples' #'Model-Cells')!
