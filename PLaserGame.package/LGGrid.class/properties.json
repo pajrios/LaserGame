@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PLaserGame-Model-Grid",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cells",
+		"laserIsActive",
+		"numberOfColumns",
+		"numberOfRows"
+	],
+	"name" : "LGGrid",
+	"type" : "normal"
+}
