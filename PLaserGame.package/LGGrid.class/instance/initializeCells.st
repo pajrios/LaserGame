@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeCells
 	self cells: Dictionary new.
 	 self numberOfColumns timesCollect: [ :x |

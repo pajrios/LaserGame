@@ -1,0 +1,3 @@
+direction
+directionSymbol
+	^LGCell north

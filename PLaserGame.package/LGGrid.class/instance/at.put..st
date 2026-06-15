@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 at: aPoint put: aCell
 	aCell gridLocation: aPoint.
 	self cells at: aPoint put: aCell

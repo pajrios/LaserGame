@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LGGridDirection",
+	"category" : "PLaserGame-Model- Directions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LGGridDirectionWest",
+	"type" : "normal"
+}

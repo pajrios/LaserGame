@@ -9,7 +9,8 @@
 		"cells",
 		"laserIsActive",
 		"numberOfColumns",
-		"numberOfRows"
+		"numberOfRows",
+		"laserBeamPath"
 	],
 	"name" : "LGGrid",
 	"type" : "normal"

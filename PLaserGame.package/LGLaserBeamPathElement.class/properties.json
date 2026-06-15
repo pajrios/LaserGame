@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PLaserGame-Model Laser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cell",
+		"entrySide"
+	],
+	"name" : "LGLaserBeamPathElement",
+	"type" : "normal"
+}
