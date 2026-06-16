@@ -1,4 +1,4 @@
-as yet unclassified
+game logic
 startingCell
 "Identifies the starting cell when laser is fired"
 	| pt |
