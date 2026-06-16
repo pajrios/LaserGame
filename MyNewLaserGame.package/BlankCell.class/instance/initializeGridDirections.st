@@ -1,7 +1,8 @@
 initialize-release
 initializeGridDirections
-	self gridDirection: Dictionary new.
-	self gridDirection at: self class north put: #north.
-	self gridDirection at: self class east put: #east.
-	self gridDirection at: self class south put: #south.
-	self gridDirection at: self class west put: #west.
+	"self gridDirection: Dictionary new."
+	gridDirection 
+			at: Cell north put: #north;
+			at: Cell east put: #east;
+			at: Cell south put: #south;
+			at: Cell west put: #west.

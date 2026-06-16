@@ -1,0 +1,3 @@
+direction
+adjacentInversionSymbol
+	^LGCell east

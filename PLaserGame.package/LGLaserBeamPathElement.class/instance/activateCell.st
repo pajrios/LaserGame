@@ -1,3 +1,3 @@
 as yet unclassified
 activateCell
-	self cell laserEnterFrom: self entrySide
+	self cell laserEntersFrom: self entrySide
