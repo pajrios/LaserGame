@@ -7,7 +7,7 @@ calculatePath
 	element := LGLaserBeamPathElement cell: cell entrySide: dirSym.
 	[self laserBeamPath addLast: element.
 	next := element nextElementIn: self.
-	next isNil whileFalse: [ element := next ] ]
+	next isNil] whileFalse: [ element := next ] 
 	
 	
 	"self laserBeamPath add: element.
